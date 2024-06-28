@@ -1,7 +1,9 @@
 name: Convert Markdown to HTML
 
-
 on: push
+
+permissions:
+  contents: write
 
 jobs:
   convert_via_pandoc:
