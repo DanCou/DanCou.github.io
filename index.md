@@ -107,5 +107,7 @@ Horaires :
 
 ![RIB](images/rib.png)
 
-280€00 / personne
+280€00 / personne.
+
+[Le lien Tricount](https://tricount.com/tLcpsLLNlVYdrkaASe) à coller dans l'appli Android ou iOS.
 
