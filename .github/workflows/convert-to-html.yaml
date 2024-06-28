@@ -15,7 +15,7 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             --standalone
             --output=index.html
-            input.txt
+            index.md
 
       - name: Commit and push changes
         run: |
