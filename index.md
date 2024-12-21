@@ -8,7 +8,9 @@ date: 12-19 juillet 2025
 @import url("https://unpkg.com/sakura.css/css/sakura.css");
 </style>
 
-# [La maison](https://www.airbnb.fr/rooms/5009565)
+# La maison
+
+<https://www.airbnb.fr/rooms/5009565>
 
 ![2 Impasse de la Cave, 29840 Landunvez](images/maison.png) 
 ![2 Impasse de la Cave, 29840 Landunvez](images/satellite.png)
