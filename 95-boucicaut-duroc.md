@@ -150,3 +150,5 @@ Institut Valentin Haüy des Jeunes Aveugles au 11, rue Duroc.
 ##### 🚶 Tournez à gauche rue de Sèvres.
 
 Vous êtes arrivé au métro Duroc.
+
+[La carte](https://umap.openstreetmap.fr/fr/map/95-boucicaut-duroc_1172039)
