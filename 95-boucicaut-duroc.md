@@ -2,6 +2,8 @@
 title: Du métro Boucicaut au métro Duroc
 ---
 
+# Du métro Boucicaut au métro Duroc
+
 Départ de la balade devant le métro Boucicaut.
 
 ##### 🚶 Prenez la rue de la Convention, en vous dirigeant vers le n°115.  
