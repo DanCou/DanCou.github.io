@@ -51,6 +51,10 @@ Les centres bus disposent d'un personnel qualifié, dont des mécaniciens, des �
 
 ❓ Année 1894 (difficile)
 
+<details>
+<summary></summary>
+L’année 1894, date de construction de l’immeuble du 61, rue de l’Abbé Groult, est gravé au 2è étage.
+</details>
 
 ##### 🚶 Tournez à gauche rue Blomet, puis à droite rue Gerbert. Remarquez les anciennes maisons du village de Vaugirard, notamment au n°1 de la rue.
 
