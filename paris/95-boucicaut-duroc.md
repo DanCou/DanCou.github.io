@@ -37,7 +37,7 @@ title: Du métro Boucicaut au métro Duroc
 </div>
 
 <details class="question">
-<summary>❓  Vin lourd à digérer.</summary>
+<summary>❓ Vin lourd à digérer.</summary>
 Au 4è étage du 8, rue Henri Bocquillon, il y a des bas-reliefs représentant de la vigne.
 </details>
 
