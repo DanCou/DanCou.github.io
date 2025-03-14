@@ -15,6 +15,8 @@ date: 12-19 juillet 2025
 ![2 Impasse de la Cave, 29840 Landunvez](images/maison.png) 
 ![2 Impasse de la Cave, 29840 Landunvez](images/satellite.png)
 
+Adresse : [2 Impasse de la Cave, 29840 Landunvez](https://maps.app.goo.gl/2ZrQymahHMxkQm5CA)
+
 Coût :
 
 - maison : 2711€59
