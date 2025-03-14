@@ -14,6 +14,7 @@ date: 12-19 juillet 2025
 
 ![2 Impasse de la Cave, 29840 Landunvez](images/maison.png) 
 ![2 Impasse de la Cave, 29840 Landunvez](images/satellite.png)
+[![](images/map.png)](https://maps.app.goo.gl/bDVwjnGXxwrwoDpc9)
 
 Adresse : [2 Impasse de la Cave, 29840 Landunvez](https://maps.app.goo.gl/2ZrQymahHMxkQm5CA)
 
