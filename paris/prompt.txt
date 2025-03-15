@@ -1,0 +1,9 @@
+Dans le texte ci dessous, identifie les phrases qui demandent un déplacement et isole les et en mettant le caractère # en tête
+identifie les phrases qui invitent à chercher quelque chose et isole les et en mettant le caractère ? en tête
+à la ligne juste en dessous de ces phrases, il y a la réponse, et isole les et en mettant le caractère ! en tête. Tu peux aussi identifier la réponse et trouver la question juste au dessus.
+identifie les phrases qui sont juste des informations (sans direction à suivre, ni réponse à trouver) et isole les et en mettant le caractère * en tête. Il peut y avoir plus qu'une phrase. Il faut les regrouper en un seul paragraphe.
+Il faudra parfois couper des phrases composées qui contiennent par exemple à la fois une direction à suivre et quelque chose à chercher.
+Assure toi de n'avoir supprimé aucun texte. Tu peux marquer les phrases dont tu ne sais pas quoi faire avec un +
+Chaque caractère ajouté (#*?!+) doit être suivi d'un espace
+
+Voilà le texte
