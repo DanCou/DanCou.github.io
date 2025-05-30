@@ -48,6 +48,18 @@ Chambres :
 
 - 🚌 ligne 914 : Brest (gare routière SNCF) - Portsall Eglise
 
+# Autour de Portsall
+
+# L'aber Ildut [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908227)
+
+Lanildut : 🚗 20 mn, 15 km
+
+Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-phine-la-passeuse/) : 09:30 - 11:30	et 14:30 - 17:00, tous les jours. Appeler la Capitainerie la veille (tel:06.31.93.58.71)
+
+![L'aber Ildut 🥾 14 km, D+100](images/aber-ildut.png)
 
 
+# Cap sur Ouessant
 
+Lanildut : 🚗 00:20, 15 km, ⛵ 00:45
+Le Conquet : 🚗 00:40, 30 km, ⛵ 01:15
