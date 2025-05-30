@@ -48,8 +48,6 @@ Chambres :
 
 - 🚌 ligne 914 : Brest (gare routière SNCF) - Portsall Eglise
 
-# Autour de Portsall
-
 # L'aber Ildut [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908227)
 
 Lanildut : 🚗 20 mn, 15 km
@@ -63,3 +61,18 @@ Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-
 
 Lanildut : 🚗 00:20, 15 km, ⛵ 00:45
 Le Conquet : 🚗 00:40, 30 km, ⛵ 01:15
+
+# L'ile Carn : dimanche 13 juillet [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908255)
+
+L’île est accessible uniquement à marée basse par coefficient d'au moins 80. Marée basse à 14:11. Voir [les horaires de marée](#les-marées).
+
+![L'ile Carn 🥾 12 km, D+160](images/ile-carn.png)
+
+# Journée off
+
+[La chapelle Saint Samson](https://www.iroise-bretagne.bzh/activite/chapelle-saint-samson/)
+[L'espace muséographique L'Ancre An Eor](https://www.iroise-bretagne.bzh/activite/lancre-an-eor-espace-museographique-dans-le-sillage-de-lamoco-cadiz/)
+
+# Les marées
+
+![](images/marees.png)
