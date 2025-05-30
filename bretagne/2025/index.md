@@ -70,8 +70,14 @@ L’île est accessible uniquement à marée basse par coefficient d'au moins 80
 
 # Journée off
 
-[La chapelle Saint Samson](https://www.iroise-bretagne.bzh/activite/chapelle-saint-samson/)
-[L'espace muséographique L'Ancre An Eor](https://www.iroise-bretagne.bzh/activite/lancre-an-eor-espace-museographique-dans-le-sillage-de-lamoco-cadiz/)
+- La pointe de Landunvez et [la chapelle Saint Samson](https://www.iroise-bretagne.bzh/activite/chapelle-saint-samson/) 🥾 5 km A/R
+- [L'espace muséographique L'Ancre An Eor](https://www.iroise-bretagne.bzh/activite/lancre-an-eor-espace-museographique-dans-le-sillage-de-lamoco-cadiz/) 🥾 5 km A/R
+
+# Porspoder et les lavoirs [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908755)
+
+🚗 [parking plage du Penfoul](https://maps.app.goo.gl/NPAxfjhKVGw5DN3U6) 00:05, 4 km
+
+![Porspoder et les lavoirs 🥾 15 km, D+100](images/porspoder.png)
 
 # Les marées
 
