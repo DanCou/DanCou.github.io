@@ -59,8 +59,33 @@ Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-
 
 # Cap sur Ouessant
 
-Lanildut : 🚗 00:20, 15 km, ⛵ 00:45
-Le Conquet : 🚗 00:40, 30 km, ⛵ 01:15
+Départ de Lanildut : ⛵ 00:45
+
+![Itinéraire 🚗 00:20, 15 km](images/home-lanildut.png)
+
+Location vélo à la journée :
+
+- 14€00, VTT/VTC
+- 30€00, vélo électrique
+
+Loueurs :
+
+- Cycle Évasion : 02.98.48.85.15 
+- La Bicyclette : 06.80.70.94.95
+- Ouessancycles : 02.98.48.83.44 ou 06.81.89.11.41
+
+A voir :
+
+- ⛪ L’église Saint Pol-Aurélien
+- ⛪ Le musée des phares et balises
+- ⛪ Le phare du Creac’h
+- 🌊 La pointe de Kadoran
+- 🌊 La pointe de Porz Doun
+- 🌊 Le port d’Arlan
+- 🌊 La pointe de Pern
+
+Restaurant : Crêperie du Stang, 02.98.48.80.94
+
 
 # L'ile Carn : dimanche 13 juillet [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908255)
 
