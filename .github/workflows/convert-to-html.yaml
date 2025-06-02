@@ -1,38 +1,42 @@
-name: Convert Markdown to HTML
+name: Convert Changed Markdown to HTML
 
-on: push
-
-permissions:
-  contents: write
+on:
+  push:
+    branches: [ main ]
 
 jobs:
-  convert_via_pandoc:
+  build:
     runs-on: ubuntu-latest
+
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - uses: actions/checkout@v4
+    - name: Install Pandoc
+      run: sudo apt-get update && sudo apt-get install -y pandoc
 
-      # - uses: docker://pandoc/core:latest
-      #   with:
-      #     args: >-  # allows you to break string into multiple lines
-      #       --standalone
-      #       --output=index.html
-      #       index.md
+    - name: Get list of changed Markdown files
+      id: changed
+      run: |
+        git fetch origin main
+        git diff --name-only HEAD^ HEAD | grep '\.md$' || true > changed_files.txt
+        echo "Changed files:"
+        cat changed_files.txt
 
-      - name: Convert Markdown files to HTML
-        run: |
-          # Find all Markdown files and convert them to HTML
-          find . -name "*.md" | while read -r md_file; do
-            html_file="${md_file%.md}.html"
-            pandoc --standalone --output="$html_file" "$md_file"
-          done
+    - name: Convert only changed Markdown to HTML
+      run: |
+        while IFS= read -r mdfile; do
+          [ -f "$mdfile" ] || continue  # Skip if file was deleted
+          htmlfile="${mdfile%.md}.html"
+          echo "Converting $mdfile -> $htmlfile"
+          pandoc "$mdfile" -o "$htmlfile"
+        done < changed_files.txt
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html
-          git commit -m "Convert Markdown to HTML [skip ci]"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit and push HTML files
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add .
+        git diff --cached --quiet || git commit -m "Update HTML from modified Markdown"
+        git push
+      continue-on-error: true
