@@ -50,7 +50,8 @@ Chambres :
 
 # L'aber Ildut [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908227)
 
-Lanildut : 🚗 20 mn, 15 km
+📍 [parking route du Crapaud](https://maps.app.goo.gl/Y7PutgJezKyGak497) : 🚗 00:20, 15 km
+![Itinéraire](images/home-lanildut.png)
 
 Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-phine-la-passeuse/) : 09:30 - 11:30	et 14:30 - 17:00, tous les jours. Appeler la Capitainerie la veille (tel:06.31.93.58.71)
 
@@ -59,9 +60,10 @@ Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-
 
 # Cap sur Ouessant
 
-Départ de Lanildut : ⛵ 00:45
+📍 [parking route du Crapaud](https://maps.app.goo.gl/Y7PutgJezKyGak497) : 🚗 00:20, 15 km
+![Itinéraire](images/home-lanildut.png)
 
-![Itinéraire 🚗 00:20, 15 km](images/home-lanildut.png)
+⛵ 00:30
 
 Location vélo à la journée :
 
@@ -84,23 +86,24 @@ A voir :
 - 🌊 Le port d’Arlan
 - 🌊 La pointe de Pern
 
-Restaurant : Crêperie du Stang, 02.98.48.80.94
-
 
 # L'ile Carn : dimanche 13 juillet [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908255)
 
 L’île est accessible uniquement à marée basse par coefficient d'au moins 80. Marée basse à 14:11. Voir [les horaires de marée](#les-marées).
 
+📍 : la maison, 09:30
+
 ![L'ile Carn 🥾 12 km, D+160](images/ile-carn.png)
 
-# Journée off
+# Journées off
 
 - La pointe de Landunvez et [la chapelle Saint Samson](https://www.iroise-bretagne.bzh/activite/chapelle-saint-samson/) 🥾 5 km A/R
 - [L'espace muséographique L'Ancre An Eor](https://www.iroise-bretagne.bzh/activite/lancre-an-eor-espace-museographique-dans-le-sillage-de-lamoco-cadiz/) 🥾 5 km A/R
 
 # Porspoder et les lavoirs [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908755)
 
-🚗 [parking plage du Penfoul](https://maps.app.goo.gl/NPAxfjhKVGw5DN3U6) 00:05, 4 km
+📍[parking plage du Penfoul](https://maps.app.goo.gl/NPAxfjhKVGw5DN3U6) : 🚗 00:05, 4 km
+![Itinéraire](images/home-porspoder.png)
 
 ![Porspoder et les lavoirs 🥾 15 km, D+100](images/porspoder.png)
 
