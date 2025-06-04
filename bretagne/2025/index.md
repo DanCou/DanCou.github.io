@@ -55,7 +55,9 @@ Chambres :
 
 Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-phine-la-passeuse/) : 09:30 - 11:30	et 14:30 - 17:00, tous les jours. Appeler la Capitainerie la veille (tel:06.31.93.58.71)
 
-![L'aber Ildut 🥾 14 km, D+100](images/aber-ildut.png)
+![](images/aber-ildut.png)
+
+L'aber Ildut 🥾 14 km, D+100
 
 
 # Cap sur Ouessant
