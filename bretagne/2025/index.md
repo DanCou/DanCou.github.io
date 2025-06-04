@@ -52,7 +52,9 @@ Chambres :
 
 📍 la maison, 09:30. L’île est accessible uniquement à marée basse par coefficient d'au moins 80. Marée basse à 14:11. Voir [les horaires de marée](#les-marées).
 
-![L'ile Carn 🥾 12 km, D+160](images/ile-carn.png)
+🥾 12 km, D+160
+
+![](images/ile-carn.png)
 
 # L'aber Ildut [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908227)
 
@@ -61,10 +63,11 @@ Chambres :
 
 Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-phine-la-passeuse/) : 09:30 - 11:30	et 14:30 - 17:00, tous les jours. Appeler la Capitainerie la veille (tel:06.31.93.58.71)
 
-L'aber Ildut 🥾 14 km, D+100
+🥾 14 km, D+100
+
 ![](images/aber-ildut.png)
 
-# Cap sur Ouessant
+# Cap sur Ouessant 🚲 31 km
 
 📍 [parking route du Crapaud](https://maps.app.goo.gl/Y7PutgJezKyGak497) : 🚗 00:20, 15 km
 ![Itinéraire](images/home-lanildut.png)
@@ -98,6 +101,7 @@ A voir :
 ![Itinéraire](images/home-leconquet.png)
 
 🥾 12 km, D+50
+
 ![](images/leconquet-pointestmathieu.png)
 
 # Porspoder et les lavoirs [🥾](https://ignrando.fr/fr/parcours/fiche/details/id/2908755)
@@ -106,6 +110,7 @@ A voir :
 ![Itinéraire](images/home-porspoder.png)
 
 🥾 15 km, D+100
+
 ![](images/porspoder.png)
 
 # Journées off
