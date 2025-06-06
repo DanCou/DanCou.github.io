@@ -70,7 +70,7 @@ Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-
 
 ![](images/aber-ildut.png)
 
-# Cap sur Ouessant 🚲 31 km, 03:00
+# Cap sur Ouessant [🚲 31 km, 03:00](https://ignrando.fr/fr/parcours/fiche/details/id/2919187)
 
 📍 [parking route du Crapaud](https://maps.app.goo.gl/Y7PutgJezKyGak497) : 🚗 00:20, 15 km
 ![Itinéraire](images/home-lanildut.png)
@@ -79,6 +79,8 @@ Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-
 
 - Lanildut 09:30 - 10:20 Ouessant
 - Ouessant 17:15 - 18:05 Lanildut
+
+![](ouessant-velo.png)
 
 ## Location vélo 🚲 à la journée :
 
@@ -103,7 +105,7 @@ Loueurs :
 - 🌊 Le port d’Arlan
 - 🌊 La pointe de Pern
 
-# Du Conquet à la Pointe Saint Mathieu [🥾 12 km, D+50](https://www.outdooractive.com/fr/route/randonnee/finistere/le-conquet-pointe-st-mathieu/317436207/?share=~3isficsk%244ossrg9a#dm=1)
+# Du Conquet à la Pointe Saint Mathieu [🥾 12 km, D+50](https://ignrando.fr/fr/parcours/fiche/details/id/2919185)
 
 📍[Passerelle du Croaë](https://maps.app.goo.gl/zi5PGoiC8bkv734y8) : 🚗 00:31, 27 km
 ![Itinéraire](images/home-leconquet.png)
@@ -120,7 +122,7 @@ Loueurs :
 # Journées light
 
 - La pointe de Landunvez et [la chapelle Saint Samson](https://www.iroise-bretagne.bzh/activite/chapelle-saint-samson/) 🥾 5 km A/R
-- [L'espace muséographique L'Ancre An Eor](https://www.iroise-bretagne.bzh/activite/lancre-an-eor-espace-museographique-dans-le-sillage-de-lamoco-cadiz/) 🥾 5 km A/R
+- [L'espace muséographique L'Ancre An Eor, Amoco Cadiz](https://www.iroise-bretagne.bzh/activite/lancre-an-eor-espace-museographique-dans-le-sillage-de-lamoco-cadiz/) 🥾 5 km A/R
 
 # Les marées
 
