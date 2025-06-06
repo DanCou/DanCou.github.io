@@ -77,10 +77,12 @@ Horaires du [passeur](https://www.iroise-bretagne.bzh/commerce/passage-de-laber-
 
 ## Traversée ⛵ 00:45, 37€00
 
+[Réservation](https://www.finist-mer.fr/)
+
 - Lanildut 09:30 - 10:20 Ouessant
 - Ouessant 17:15 - 18:05 Lanildut
 
-![](ouessant-velo.png)
+![](images/ouessant-velo.png)
 
 ## Location vélo 🚲 à la journée :
 
