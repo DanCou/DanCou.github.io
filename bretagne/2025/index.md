@@ -55,6 +55,10 @@ Chambres :
 
 🥾 00:30 jusqu'à la maison
 
+# La carte du séjour
+
+[![](images/umap.png)](https://umap.openstreetmap.fr/fr/map/la-mer-diroise_1236969)
+
 # L'ile Carn : dimanche 13 juillet [🥾 12 km, D+160](https://ignrando.fr/fr/parcours/fiche/details/id/2908255)
 
 📍 la maison, 09:30. L’île est accessible uniquement à marée basse par coefficient d'au moins 80. Marée basse à 14:11. Voir [les horaires de marée](#les-marées).
