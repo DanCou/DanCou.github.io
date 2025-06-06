@@ -46,12 +46,12 @@ Chambres :
 
 # Liaison avec Brest TGV 🚆
 
-- 914 🚌 Brest (gare routière SNCF) 11:55 - 12:59 Ploudamezeau (Bar Al Lan) 
-- 912 🚌 Brest (gare routière SNCF) 12:09 - 12:40 Saint Renan (gare routière) - 13:12 Ploudamezeau (Bar Al Lan)
-- 912 🚌 Brest (gare routière SNCF) 16:09 - 16:40 Saint Renan (gare routière) - 17:12 Ploudamezeau (Bar Al Lan)
-- 914 🚌 Brest (gare routière SNCF) 17:00 - 18:04 Ploudamezeau (Bar Al Lan)
-- 914 🚌 Brest (gare routière SNCF) 18:15 - 19:19 Ploudamezeau (Bar Al Lan)
-- 912 🚌 Brest (gare routière SNCF) 19:15 - 19:46 Saint Renan (gare routière) - 20:15 Ploudamezeau (Bar Al Lan)
+- [914 🚌](https://media.breizhgo.bzh/breizhgo/media/2025-04/horaires-finistere-ligne914.pdf) Brest (gare routière SNCF) 11:55 - 12:59 Ploudamezeau (Bar Al Lan) 
+- [912 🚌](https://media.breizhgo.bzh/breizhgo/media/2025-04/horaires-finistere-ligne914.pdf) Brest (gare routière SNCF) 12:09 - 12:40 Saint Renan (gare routière) - 13:12 Ploudamezeau (Bar Al Lan)
+- [912 🚌](https://media.breizhgo.bzh/breizhgo/media/2025-04/horaires-finistere-ligne914.pdf) Brest (gare routière SNCF) 16:09 - 16:40 Saint Renan (gare routière) - 17:12 Ploudamezeau (Bar Al Lan)
+- [914 🚌](https://media.breizhgo.bzh/breizhgo/media/2025-04/horaires-finistere-ligne914.pdf) Brest (gare routière SNCF) 17:00 - 18:04 Ploudamezeau (Bar Al Lan)
+- [914 🚌](https://media.breizhgo.bzh/breizhgo/media/2025-04/horaires-finistere-ligne914.pdf) Brest (gare routière SNCF) 18:15 - 19:19 Ploudamezeau (Bar Al Lan)
+- [912 🚌](https://media.breizhgo.bzh/breizhgo/media/2025-04/horaires-finistere-ligne914.pdf) Brest (gare routière SNCF) 19:15 - 19:46 Saint Renan (gare routière) - 20:15 Ploudamezeau (Bar Al Lan)
 
 🥾 00:30 jusqu'à la maison
 
