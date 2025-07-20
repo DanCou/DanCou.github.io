@@ -13,7 +13,7 @@ date: 23 juillet - 3 août 2025
 [![](images/parcours.png)](https://umap.openstreetmap.fr/fr/map/munich-venise_1200335#8/46.794/12.025)
 
 - [Le site officiel](https://muenchen-venezia.info/en/)
-- [GPX](images/munich-venise-est.gpx)
+- [GPX](files/munich-venise-est.gpx)
 
 # 1. mercredi 23 juillet : Paris - Munich
 
@@ -86,6 +86,9 @@ date: 23 juillet - 3 août 2025
 
 - 🚲 82km D+ 350m et D-1100m
 - 40 km, D+300
+
+[](images/6.png)
+
 - 🏨 [Emozioni al Lago, Via Poiatte, 39/a, 32016 Farra dʼAlpago](https://maps.app.goo.gl/SzknLLyUTCFQen6A9)
     - confirmé : 137€00
     - [Booking : 4783472394 / 1987](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=KDWWyIiWUlBLMrr6&source=mytrips)
@@ -93,6 +96,9 @@ date: 23 juillet - 3 août 2025
 # 9. jeudi 31 juillet : ⟶ Trevise
 
 - 🚲 40 km, D+300
+
+[](images/7.png)
+
 - 🏨 [B&B Madam Treviso, Via Risorgimento 12 1° Piano, 31100 Trévise](https://maps.app.goo.gl/DFGBxBmGzHg7ksEa7)
     - confirmé : 70€00
     - [Booking : 4765606690 /  4519](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=PxlkpOkOM2nW8Fvq&source=mytrips)
