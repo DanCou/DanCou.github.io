@@ -27,9 +27,9 @@ date: 23 juillet - 3 août 2025
 
 # 2. jeudi 24 juillet : ⟶ Kreuth
 
-- 🚲 74 km, D+410
+- 🚲 74 km, D+430 D-160
 
-[](files/1.png)
+[](images/1.png)
 
 - 🏨 [Gasthof zur Post Nördliche Haupstrasse 5-7, 83708 Kreuth](https://maps.app.goo.gl/vCxHx2kg13YzsFmo7)
     - confirmé : 134€00
@@ -37,9 +37,9 @@ date: 23 juillet - 3 août 2025
 
 # 3. vendredi 25 juillet : ⟶ Pertisau
 
-- 🚲 50 km
+- 🚲 40 km, D+430 D-270
 
-[](files/2.png)
+[](images/2.png)
 
 - 🏨 [Two Brothers Inn 5 Oberdorfweg, 6213 Pertisau](https://maps.app.goo.gl/HeYtd4EPgmvUMYbs6)
     - 168€80, annulé par Booking mais réservé par l'hotel. Cf messages ci dessous
@@ -47,9 +47,9 @@ date: 23 juillet - 3 août 2025
 
 # 4. samedi 26 juillet : ⟶ Innsbruck
 
-- 🚲 55 km
+- 🚲 44 km, D+100 D-470
 
-[](files/3.png)
+[](images/3.png)
 
 - 🏨 [Pension Stoi budget guesthouse, Salurner Straße 7, Wilten, 6020 Innsbruck](https://maps.app.goo.gl/GYLpu7pk3mYJaL898)
     - confirmé : 145€00
@@ -59,7 +59,7 @@ date: 23 juillet - 3 août 2025
 
 - 🚲 55 km, D+300
 
-[](files/4.png)
+[](images/4.png)
 
 - 🏨 [Hotel B&B Gasthof Zur Linde Via Katharina Lanz 80, 39037 Rio di Pusteria](https://maps.app.goo.gl/BCsm7PsK6GBRgBVi8)
     - confirmé : 144€32
@@ -67,9 +67,9 @@ date: 23 juillet - 3 août 2025
 
 # 6. lundi 28 juillet : ⟶ Brunico ⟶ Dobbiaco
 
-- 🚲 60 km, D+650
+- 🚲 56 km, D+670 D-240
 
-[](files/5.png)
+[](images/5.png)
 
 - 🏨 [Guesthouse - Cultural Center Gustav Mahler 43 Via Dolomiti, 39034 Dobbiaco](https://maps.app.goo.gl/tKCRPRN2SRTiu5AJA)
     - confirmé : 217€69 (payé 212€29)
