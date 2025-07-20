@@ -10,7 +10,7 @@ date: 23 juillet - 3 août 2025
 
 # Munich - Venise : 597 km +3611 m / -4128 m
 
-[![](images/parcours.png)](https://umap.openstreetmap.fr/fr/map/munich-venise_1200335#8/46.794/12.025)
+[![](./images/parcours.png)](https://umap.openstreetmap.fr/fr/map/munich-venise_1200335#8/46.794/12.025)
 
 - [Le site officiel](https://muenchen-venezia.info/en/)
 - [GPX](files/munich-venise-est.gpx)
@@ -29,7 +29,7 @@ date: 23 juillet - 3 août 2025
 
 - 🚲 74 km, D+430 D-160
 
-[](images/1.png)
+![](./images/1.png)
 
 - 🏨 [Gasthof zur Post Nördliche Haupstrasse 5-7, 83708 Kreuth](https://maps.app.goo.gl/vCxHx2kg13YzsFmo7)
     - confirmé : 134€00
@@ -39,7 +39,7 @@ date: 23 juillet - 3 août 2025
 
 - 🚲 40 km, D+430 D-270
 
-[](images/2.png)
+![](./images/2.png)
 
 - 🏨 [Two Brothers Inn 5 Oberdorfweg, 6213 Pertisau](https://maps.app.goo.gl/HeYtd4EPgmvUMYbs6)
     - 168€80, annulé par Booking mais réservé par l'hotel. Cf messages ci dessous
@@ -49,7 +49,7 @@ date: 23 juillet - 3 août 2025
 
 - 🚲 44 km, D+100 D-470
 
-[](images/3.png)
+![](./images/3.png)
 
 - 🏨 [Pension Stoi budget guesthouse, Salurner Straße 7, Wilten, 6020 Innsbruck](https://maps.app.goo.gl/GYLpu7pk3mYJaL898)
     - confirmé : 145€00
@@ -59,7 +59,7 @@ date: 23 juillet - 3 août 2025
 
 - 🚲 55 km, D+300
 
-[](images/4.png)
+![](./images/4.png)
 
 - 🏨 [Hotel B&B Gasthof Zur Linde Via Katharina Lanz 80, 39037 Rio di Pusteria](https://maps.app.goo.gl/BCsm7PsK6GBRgBVi8)
     - confirmé : 144€32
@@ -69,7 +69,7 @@ date: 23 juillet - 3 août 2025
 
 - 🚲 56 km, D+670 D-240
 
-[](images/5.png)
+![](./images/5.png)
 
 - 🏨 [Guesthouse - Cultural Center Gustav Mahler 43 Via Dolomiti, 39034 Dobbiaco](https://maps.app.goo.gl/tKCRPRN2SRTiu5AJA)
     - confirmé : 217€69 (payé 212€29)
@@ -78,6 +78,9 @@ date: 23 juillet - 3 août 2025
 # 7. mardi 29 juillet : ⟶ Cortina
 
 - 🚲 38km, D+350
+
+![](./images/6.png)
+
 - 🏨 [Hotel Olimpia, Largo Poste 37, 32043 Cortina dʼAmpezzo](https://maps.app.goo.gl/3qhzkdxEk6cfBMzr5)
     - confirmé : 241€86
     - [Booking : 4921905287 / 5780](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=pKi5gu5KGDNgzusg&source=mytrips)
@@ -87,7 +90,7 @@ date: 23 juillet - 3 août 2025
 - 🚲 82km D+ 350m et D-1100m
 - 40 km, D+300
 
-[](images/6.png)
+![](./images/7.png)
 
 - 🏨 [Emozioni al Lago, Via Poiatte, 39/a, 32016 Farra dʼAlpago](https://maps.app.goo.gl/SzknLLyUTCFQen6A9)
     - confirmé : 137€00
@@ -97,7 +100,7 @@ date: 23 juillet - 3 août 2025
 
 - 🚲 40 km, D+300
 
-[](images/7.png)
+![](./images/8.png)
 
 - 🏨 [B&B Madam Treviso, Via Risorgimento 12 1° Piano, 31100 Trévise](https://maps.app.goo.gl/DFGBxBmGzHg7ksEa7)
     - confirmé : 70€00
