@@ -24,9 +24,13 @@ date: 23 juillet - 3 août 2025
     - confirmé : 94€41
     - [Booking : 4651912927 / 4337](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=th8BPizc6aJUrHU6&source=mytrips)
 
+
 # 2. jeudi 24 juillet : ⟶ Kreuth
 
 - 🚲 74 km, D+410
+
+[](files/1.png)
+
 - 🏨 [Gasthof zur Post Nördliche Haupstrasse 5-7, 83708 Kreuth](https://maps.app.goo.gl/vCxHx2kg13YzsFmo7)
     - confirmé : 134€00
     - [Booking : 4577271011 / 8439](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=F5GsPCd7zIKVT1mL&source=mytrips)
@@ -34,6 +38,9 @@ date: 23 juillet - 3 août 2025
 # 3. vendredi 25 juillet : ⟶ Pertisau
 
 - 🚲 50 km
+
+[](files/2.png)
+
 - 🏨 [Two Brothers Inn 5 Oberdorfweg, 6213 Pertisau](https://maps.app.goo.gl/HeYtd4EPgmvUMYbs6)
     - 168€80, annulé par Booking mais réservé par l'hotel. Cf messages ci dessous
     - [Booking : 4392080740 / 6956](https://secure.booking.com/confirmation.en-us.html?label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&sid=17b89a66dabce369e1957d1731386ea2&aid=304142&auth_key=5ghbBmyX98h0nZ5n&source=mytrips)
@@ -41,6 +48,9 @@ date: 23 juillet - 3 août 2025
 # 4. samedi 26 juillet : ⟶ Innsbruck
 
 - 🚲 55 km
+
+[](files/3.png)
+
 - 🏨 [Pension Stoi budget guesthouse, Salurner Straße 7, Wilten, 6020 Innsbruck](https://maps.app.goo.gl/GYLpu7pk3mYJaL898)
     - confirmé : 145€00
     - [Booking : 4404643659 / 2816](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=HAYIK4SlqrnVvpkg&source=mytrips)
@@ -48,6 +58,9 @@ date: 23 juillet - 3 août 2025
 # 5. dimanche 27 juillet : ⟶ Rio di Pusteria
 
 - 🚲 55 km, D+300
+
+[](files/4.png)
+
 - 🏨 [Hotel B&B Gasthof Zur Linde Via Katharina Lanz 80, 39037 Rio di Pusteria](https://maps.app.goo.gl/BCsm7PsK6GBRgBVi8)
     - confirmé : 144€32
     - [Booking : 4975049748 / 0564](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=TtWsfkuSk35pedc1&source=mytrips)
@@ -55,6 +68,9 @@ date: 23 juillet - 3 août 2025
 # 6. lundi 28 juillet : ⟶ Brunico ⟶ Dobbiaco
 
 - 🚲 60 km, D+650
+
+[](files/5.png)
+
 - 🏨 [Guesthouse - Cultural Center Gustav Mahler 43 Via Dolomiti, 39034 Dobbiaco](https://maps.app.goo.gl/tKCRPRN2SRTiu5AJA)
     - confirmé : 217€69 (payé 212€29)
     - [Booking : 4410025751 / 6532](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=SOEtzV5A6yRMTMgE&source=mytrips)
