@@ -8,12 +8,12 @@ date: 23 juillet - 3 août 2025
 @import url("https://unpkg.com/sakura.css/css/sakura.css");
 </style>
 
-# Le parcours : 597 km +3611 m / -4128 m
+# Munich - Venise : 597 km +3611 m / -4128 m
 
 [![](images/parcours.png)](https://umap.openstreetmap.fr/fr/map/munich-venise_1200335#8/46.794/12.025)
 
-[Le site officiel](https://muenchen-venezia.info/en/)
-[GPX](images/munich-venise-est.gpx)
+- [Le site officiel](https://muenchen-venezia.info/en/)
+- [GPX](images/munich-venise-est.gpx)
 
 # 1. mercredi 23 juillet : Paris - Munich
 
@@ -29,7 +29,7 @@ date: 23 juillet - 3 août 2025
 - 🚲 74 km, D+410
 - 🏨 [Gasthof zur Post Nördliche Haupstrasse 5-7, 83708 Kreuth](https://maps.app.goo.gl/vCxHx2kg13YzsFmo7)
     - confirmé : 134€00
-    - [Booking : 4577271011 / 8439]https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=F5GsPCd7zIKVT1mL&source=mytrips
+    - [Booking : 4577271011 / 8439](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=F5GsPCd7zIKVT1mL&source=mytrips)
 
 # 3. vendredi 25 juillet : ⟶ Pertisau
 
@@ -43,14 +43,14 @@ date: 23 juillet - 3 août 2025
 - 🚲 55 km
 - 🏨 [Pension Stoi budget guesthouse, Salurner Straße 7, Wilten, 6020 Innsbruck](https://maps.app.goo.gl/GYLpu7pk3mYJaL898)
     - confirmé : 145€00
-    - [Booking : 4404643659 / 2816]https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=HAYIK4SlqrnVvpkg&source=mytrips
+    - [Booking : 4404643659 / 2816](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=HAYIK4SlqrnVvpkg&source=mytrips)
 
 # 5. dimanche 27 juillet : ⟶ Rio di Pusteria
 
 - 🚲 55 km, D+300
 - 🏨 [Hotel B&B Gasthof Zur Linde Via Katharina Lanz 80, 39037 Rio di Pusteria](https://maps.app.goo.gl/BCsm7PsK6GBRgBVi8)
     - confirmé : 144€32
-    - [Booking : 4975049748 / 0564]https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=TtWsfkuSk35pedc1&source=mytrips
+    - [Booking : 4975049748 / 0564](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=TtWsfkuSk35pedc1&source=mytrips)
 
 # 6. lundi 28 juillet : ⟶ Brunico ⟶ Dobbiaco
 
@@ -64,7 +64,7 @@ date: 23 juillet - 3 août 2025
 - 🚲 38km, D+350
 - 🏨 [Hotel Olimpia, Largo Poste 37, 32043 Cortina dʼAmpezzo](https://maps.app.goo.gl/3qhzkdxEk6cfBMzr5)
     - confirmé : 241€86
-    - [Booking : 4921905287 / 5780]https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=pKi5gu5KGDNgzusg&source=mytrips
+    - [Booking : 4921905287 / 5780](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=pKi5gu5KGDNgzusg&source=mytrips)
 
 # 8. mercredi 30 juillet : ⟶ Farra d’Alpago
 
