@@ -7,8 +7,16 @@
       <link href="https://gpx.studio"/>
     </author>
   </metadata>
+  <wpt lat="46.797427" lon="11.667788">
+    <ele>766.9001311668192</ele>
+    <name>Rio di Pusteria</name>
+  </wpt>
+  <wpt lat="46.723652" lon="12.225696">
+    <ele>1216.1023219556087</ele>
+    <name>Dobbiaco</name>
+  </wpt>
   <trk>
-    <name>1.-erlebnis-wasser--muenchen-achensee-ost</name>
+    <name>5-Rio-di-Pusteria-Dobbiaco</name>
     <type>Cycling</type>
     <trkseg>
       <trkpt lat="46.78795" lon="11.66454">

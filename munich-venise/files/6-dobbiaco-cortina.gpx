@@ -7,26 +7,6 @@
       <link href="https://gpx.studio"/>
     </author>
   </metadata>
-  <wpt lat="48.13894" lon="11.56048">
-    <ele>532.29431645861</ele>
-    <name>Munich</name>
-  </wpt>
-  <wpt lat="47.64554" lon="11.74483">
-    <ele>780.6107011259206</ele>
-    <name>Kreuth</name>
-  </wpt>
-  <wpt lat="47.440758" lon="11.688947">
-    <ele>962.4495442822277</ele>
-    <name>Pertisau</name>
-  </wpt>
-  <wpt lat="47.26271" lon="11.3977">
-    <ele>584.9902960227348</ele>
-    <name>Innsbruck</name>
-  </wpt>
-  <wpt lat="46.797427" lon="11.667788">
-    <ele>766.9001311668192</ele>
-    <name>Rio di Pusteria</name>
-  </wpt>
   <wpt lat="46.723652" lon="12.225696">
     <ele>1216.1023219556087</ele>
     <name>Dobbiaco</name>
@@ -35,20 +15,8 @@
     <ele>1225.260395867564</ele>
     <name>Cortina</name>
   </wpt>
-  <wpt lat="46.106675" lon="12.355142">
-    <ele>407.7165731875467</ele>
-    <name>Farra d&apos;Alpago</name>
-  </wpt>
-  <wpt lat="45.6655" lon="12.24055">
-    <ele>19.238843443992685</ele>
-    <name>Trevise</name>
-  </wpt>
-  <wpt lat="45.483342" lon="12.256082">
-    <ele>1.2607511796629325</ele>
-    <name>Mestre</name>
-  </wpt>
   <trk>
-    <name>1.-erlebnis-wasser--muenchen-achensee-ost</name>
+    <name>6-Dobbiaco-Cortina</name>
     <type>Cycling</type>
     <trkseg>
       <trkpt lat="46.7187" lon="12.2235">
