@@ -3,10 +3,7 @@ title: Munich - Venise
 date: 23 juillet - 3 août 2025
 ---
 
-<style type="text/css">
-@import url("https://unpkg.com/sakura.css/css/normalize.css");
-@import url("https://unpkg.com/sakura.css/css/sakura.css");
-</style>
+
 
 # Munich - Venise : 597 km +3611 m / -4128 m
 
