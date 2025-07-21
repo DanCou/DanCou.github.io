@@ -27,7 +27,7 @@ date: 23 juillet - 3 août 2025
 
 # 2. jeudi 24 juillet : ⟶ Kreuth
 
-- 🚲 74 km, D+430 D-160
+- [GPX](./files/1-munich-kreuth.gpx)
 
 ![](./images/1.png)
 
@@ -37,7 +37,7 @@ date: 23 juillet - 3 août 2025
 
 # 3. vendredi 25 juillet : ⟶ Pertisau
 
-- 🚲 40 km, D+430 D-270
+- [GPX](./files/2-kreuth-pertisau.gpx)
 
 ![](./images/2.png)
 
@@ -47,7 +47,7 @@ date: 23 juillet - 3 août 2025
 
 # 4. samedi 26 juillet : ⟶ Innsbruck
 
-- 🚲 44 km, D+100 D-470
+- [GPX](./files/3-pertisau-innsbruck.gpx)
 
 ![](./images/3.png)
 
@@ -57,7 +57,7 @@ date: 23 juillet - 3 août 2025
 
 # 5. dimanche 27 juillet : ⟶ Rio di Pusteria
 
-- 🚲 55 km, D+300
+- [GPX](./files/4-innsbruck-rio-di-pusteria.gpx)
 
 ![](./images/4.png)
 
@@ -67,7 +67,7 @@ date: 23 juillet - 3 août 2025
 
 # 6. lundi 28 juillet : ⟶ Brunico ⟶ Dobbiaco
 
-- 🚲 56 km, D+670 D-240
+- [GPX](./files/5-rio-di-pusteria-dobbiaco.gpx
 
 ![](./images/5.png)
 
@@ -77,7 +77,7 @@ date: 23 juillet - 3 août 2025
 
 # 7. mardi 29 juillet : ⟶ Cortina
 
-- 🚲 38km, D+350
+- [GPX](./files/6-dobbiaco-cortina.gpx)
 
 ![](./images/6.png)
 
@@ -87,8 +87,7 @@ date: 23 juillet - 3 août 2025
 
 # 8. mercredi 30 juillet : ⟶ Farra d’Alpago
 
-- 🚲 82km D+ 350m et D-1100m
-- 40 km, D+300
+- [GPX](./files/7-cortina-farra-d-alpago.gpx)
 
 ![](./images/7.png)
 
@@ -98,7 +97,7 @@ date: 23 juillet - 3 août 2025
 
 # 9. jeudi 31 juillet : ⟶ Trevise
 
-- 🚲 40 km, D+300
+- [GPX](./files/8-farra-d-alpago-trevise.gpx)
 
 ![](./images/8.png)
 
@@ -116,4 +115,12 @@ date: 23 juillet - 3 août 2025
 
 # 11. dimanche 3 août : ⟶ Paris
 
+- 🚆  Venezia Mestre 13:00 - 15:15 Milano Centrale (58€80)
+    - [Billet Raphaël](./files/VENISE_MILAN_RAPHAEL.pdf)
+    - [Billet Daniel](./files/VENISE_MILAN_DANIEL.pdf)
+
 Visite de Milan à vélo : https://umap.openstreetmap.fr/fr/map/milan_1219064
+
+- 🚆 Milano Centrale 15:53 - 22:34 Paris (178€00)
+    - [Billet Raphaël](./files/MILAN_PARIS_RAPHAEL.pdf)
+    - [Billet Daniel](./files/MILAN_PARIS_DANIEL.pdf)
