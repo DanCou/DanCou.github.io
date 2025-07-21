@@ -67,7 +67,7 @@ date: 23 juillet - 3 août 2025
 
 # 6. lundi 28 juillet : ⟶ Brunico ⟶ Dobbiaco
 
-- [GPX](./files/5-rio-di-pusteria-dobbiaco.gpx
+- [GPX](./files/5-rio-di-pusteria-dobbiaco.gpx)
 
 ![](./images/5.png)
 
