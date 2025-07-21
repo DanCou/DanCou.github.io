@@ -55,9 +55,12 @@ date: 23 juillet - 3 août 2025
     - confirmé : 145€00
     - [Booking : 4404643659 / 2816](https://secure.booking.com/confirmation.en-us.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaE2IAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4As7P88MGwAIB0gIkZjRmODVhZTUtOTJiYi00ODczLTkwZjEtOGZkNTIzNjBjNjEx2AIF4AIB&auth_key=HAYIK4SlqrnVvpkg&source=mytrips)
 
-# 5. dimanche 27 juillet : ⟶ Rio di Pusteria
+# 5. dimanche 27 juillet : ⟶ Brenner ⟶ Rio di Pusteria
 
-- [GPX](./files/4-innsbruck-rio-di-pusteria.gpx)
+- 🚆  Innsbruck 09:24 - 10:00 Brenner
+    - billets à acheter
+
+- [GPX](./files/4-brenner-rio-di-pusteria.gpx)
 
 ![](./images/4.png)
 
