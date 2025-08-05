@@ -16,6 +16,11 @@ date: 14-24 août 2025
     - [Billet Cécile](./files/LIMOGES_ST-YRIEIX_CECILE.pdf)
     - [Billet Daniel](./files/LIMOGES_ST-YRIEIX_DANIEL.pdf)
 - [🚲](./files/1-st-yrieix-la-coquille.gpx)
+
+![](./images/01-elevation.png)
+
+![](./images/01-map.png)
+
 - [🏨](https://maps.app.goo.gl/DqpGEqF1U49bcsPg8) Le Refuge des Pélerins, Impasse Saint-Jean, 24450 LA COQUILLE, 05.53.52.64.25
 
 
@@ -33,9 +38,9 @@ date: 14-24 août 2025
 
 - [🚲](./files/3-nontron-angouleme.gpx)
 
-![](./images/3.png)
+![](./images/03-elevation.png)
 
-![](./images/3-map.png)
+![](./images/03-map.png)
 
 - [🏨](https://maps.app.goo.gl/7YXNRGmedwTiZPAa8) Appart' City, 70, Avenue de Cognac 16000 ANGOULEME 
 
@@ -63,7 +68,7 @@ date: 14-24 août 2025
 
 - [🚲](./files/06-saintes-rochefort.gpx)
 
-![](./images/06.png)
+![](./images/06-elevation.png)
 
 ![](./images/06-map.png)
 
@@ -73,7 +78,7 @@ date: 14-24 août 2025
 
 - [🚲](./files/07-rochefort-ile-aix.gpx)
 
-![](./images/07.png)
+![](./images/07-elevation.png)
 
 ![](./images/07-map.png)
 
@@ -83,7 +88,7 @@ date: 14-24 août 2025
 
 - [🚲](./files/08-rochefort-la-tremblade.gpx)
 
-![](./images/08.png)
+![](./images/08-elevation.png)
 
 ![](./images/08-map.png)
 
@@ -93,11 +98,11 @@ date: 14-24 août 2025
 
 - [🚲](./files/09-la-tremblade-royan.gpx)
 
-![](./images/09.png)
+![](./images/09-elevation.png)
 
 ![](./images/09-map.png)
 
-- [🏨]() 78 boulevard Franck Lamy, 17200 Royan 
+- [🏨](https://maps.app.goo.gl/sLRhc9wo9v4vpRc76) 78 boulevard Franck Lamy, 17200 Royan 
 
 # 10. samedi 23 août, samedi 2 août : ⟶ Soulac ⟶ Royan
 
