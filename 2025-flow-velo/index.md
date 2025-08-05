@@ -3,30 +3,29 @@ title: Flow Vélo
 date: 14 août 2025
 ---
 
-# Flow vélo : 597 km +3611 m / -4128 m
+# Flow vélo : 458 km +2885 m / -3242 m
 
-[![](./images/parcours.png)](https://umap.openstreetmap.fr/fr/map/munich-venise_1200335#8/46.794/12.025)
+[![](./images/parcours.png)](https://umap.openstreetmap.fr/en/map/flow-velo_1264424#10/45.7124/-0.0536)
 
-- [Le site officiel](https://muenchen-venezia.info/en/)
-- [GPX global](files/munich-venise-est.gpx)
+- [Le site officiel](https://www.laflowvelo.com/)
 
 # 1. jeudi 14 août : Limoges ⟶ La Coquille
 
 - 🚆 Limoges 12:18 - 15:00 Saint Yrieix
     - [Billet Cécile](./files/LIMOGES_ST-YRIEIX_CECILE.pdf)
     - [Billet Daniel](./files/LIMOGES_ST-YRIEIX_DANIEL.pdf)
-- [🚲](./files/01-st-yrieix-la-coquille.gpx)
+- [🚲 GPX](./files/01-st-yrieix-la-coquille.gpx)
 
 ![](./images/01-elevation.png)
 
 ![](./images/01-map.png)
 
-- [🏨](https://maps.app.goo.gl/DqpGEqF1U49bcsPg8) Le Refuge des Pélerins, Impasse Saint-Jean, 24450 LA COQUILLE, 05.53.52.64.25
+- [🏨](https://maps.app.goo.gl/DqpGEqF1U49bcsPg8) Le Refuge des Pélerins, Impasse Saint-Jean, 24450 La Coquille, 05.53.52.64.25
 
 
 # 2. vendredi 15 août : ⟶ Nontron
 
-- [🚲](./files/02-la-coquille-nontron.gpx)
+- [🚲 GPX](./files/02-la-coquille-nontron.gpx)
 
 ![](./images/02-elevation.png)
 
@@ -36,17 +35,17 @@ date: 14 août 2025
 
 # 3. samedi 16 août : ⟶ Angoulême
 
-- [🚲](./files/3-nontron-angouleme.gpx)
+- [🚲 GPX](./files/3-nontron-angouleme.gpx)
 
 ![](./images/03-elevation.png)
 
 ![](./images/03-map.png)
 
-- [🏨](https://maps.app.goo.gl/7YXNRGmedwTiZPAa8) Appart' City, 70, Avenue de Cognac 16000 ANGOULEME 
+- [🏨](https://maps.app.goo.gl/7YXNRGmedwTiZPAa8) Appart' City, 70, Avenue de Cognac 16000 Angoulême 
 
 # 4. dimanche 17 août : ⟶ Cognac
 
-- [🚲](./files/4-angouleme-cognac.gpx)
+- [🚲 GPX](./files/4-angouleme-cognac.gpx)
 
 ![](./images/04-elevation.png)
 
@@ -56,17 +55,17 @@ date: 14 août 2025
 
 # 5. lundi 18 août : ⟶ Saintes
 
-- [🚲](./files/05-cognac-saintes.gpx)
+- [🚲 GPX](./files/05-cognac-saintes.gpx)
 
 ![](./images/05-elevation.png)
 
 ![](./images/05-map.png)
 
-- [🏨](https://maps.app.goo.gl/isRpQJ2tq6APXTer7) AJ Saintes, 2 Place Geoffroy Martel, 17100 SAINTES, 05.46.92.14.92
+- [🏨](https://maps.app.goo.gl/isRpQJ2tq6APXTer7) AJ Saintes, 2 Place Geoffroy Martel, 17100 Saintes, 05.46.92.14.92
 
 # 6. mardi 19 août : ⟶ Rochefort
 
-- [🚲](./files/06-saintes-rochefort.gpx)
+- [🚲 GPX](./files/06-saintes-rochefort.gpx)
 
 ![](./images/06-elevation.png)
 
@@ -76,7 +75,7 @@ date: 14 août 2025
 
 # 7. mercredi 20 août : ⟶ Ile d'Aix ⟶ Rochefort
 
-- [🚲](./files/07-rochefort-ile-aix.gpx)
+- [🚲 GPX](./files/07-rochefort-ile-aix.gpx)
 
 ![](./images/07-elevation.png)
 
@@ -86,7 +85,7 @@ date: 14 août 2025
 
 # 8. jeudi 21 août : ⟶ La Tremblade
 
-- [🚲](./files/08-rochefort-la-tremblade.gpx)
+- [🚲 GPX](./files/08-rochefort-la-tremblade.gpx)
 
 ![](./images/08-elevation.png)
 
@@ -96,7 +95,7 @@ date: 14 août 2025
 
 # 9. vendredi 22 août : ⟶ Royan
 
-- [🚲](./files/09-la-tremblade-royan.gpx)
+- [🚲 GPX](./files/09-la-tremblade-royan.gpx)
 
 ![](./images/09-elevation.png)
 
@@ -104,22 +103,14 @@ date: 14 août 2025
 
 - [🏨](https://maps.app.goo.gl/sLRhc9wo9v4vpRc76) 78 boulevard Franck Lamy, 17200 Royan 
 
-# 10. samedi 23 août, samedi 2 août : ⟶ Soulac ⟶ Royan
-
-- [🚲](./files/10-royan-soulac.gpx)
-
-![](./images/10.png)
-
-![](./images/10-map.png)
-
-- 🏨 
+# 10. samedi 23 août : ⟶ Soulac ⟶ Royan
 
 # 11. dimanche 24 août : ⟶ La Rochelle
 
-- 🚆  Royan 13:00 - 15:15 Saintes 16:16 - 18:18 La Rochelle
+- 🚆  Royan 09:28 - 09:53 Saintes 10:06 - 11:11 La Rochelle
     - [Billet Cécile](./files/ROYAN_LA-ROCHELLE_CECILE.pdf)
     - [Billet Daniel](./files/ROYAN_LA-ROCHELLE_DANIEL.pdf)
-- 🏨
+- [🏨](https://maps.app.goo.gl/p4o4YgM4hH6MZne67) AJ, Avenue des Minimes, 17000 La Rochelle, 05.46.44.43.11
 
 # 12. lundi 25 août : ⟶ Paris
 
