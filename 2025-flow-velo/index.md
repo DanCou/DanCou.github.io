@@ -1,6 +1,6 @@
 ---
 title: Flow Vélo
-date: 14-24 août 2025
+date: 14 août 2025
 ---
 
 # Flow vélo : 597 km +3611 m / -4128 m
@@ -15,7 +15,7 @@ date: 14-24 août 2025
 - 🚆 Limoges 12:18 - 15:00 Saint Yrieix
     - [Billet Cécile](./files/LIMOGES_ST-YRIEIX_CECILE.pdf)
     - [Billet Daniel](./files/LIMOGES_ST-YRIEIX_DANIEL.pdf)
-- [🚲](./files/1-st-yrieix-la-coquille.gpx)
+- [🚲](./files/01-st-yrieix-la-coquille.gpx)
 
 ![](./images/01-elevation.png)
 
