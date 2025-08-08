@@ -20,7 +20,9 @@ date: 14 août 2025
 
 - [🏨](https://maps.app.goo.gl/DqpGEqF1U49bcsPg8) Le Refuge des Pélerins, Impasse Saint-Jean, 24450 La Coquille, 05.53.52.64.25
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/241330##3D6AA2" title="La Coquille"> </iframe>
+</div>
 
 # 2. vendredi 15 août : ⟶ Nontron
 
@@ -33,7 +35,9 @@ date: 14 août 2025
 
 - [🏨](https://maps.app.goo.gl/uWECs62TbhtB2sN48) Camping L'Agrion Bleu, 120 Route du stade - St Martial de Valette - 24300 - Nontron, 05.53.56.02.04
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/243110##3D6AA2" title="Nontron"> </iframe>
+</div>
 
 # 3. samedi 16 août : ⟶ Angoulême
 
@@ -45,7 +49,9 @@ date: 14 août 2025
 
 - [🏨](https://maps.app.goo.gl/7YXNRGmedwTiZPAa8) Appart' City, 70, Avenue de Cognac 16000 Angoulême
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/160150##3D6AA2" title="Angoulême"> </iframe>
+</div>
 
 # 4. dimanche 17 août : ⟶ Cognac
 
@@ -57,7 +63,9 @@ date: 14 août 2025
 
 - [🏨](https://maps.app.goo.gl/zBwb7DgEkXsvuQjd6) Sylvie, 28 rue de Boutiers, 16100 Cognac, 06.61.38.65.19
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/161020##3D6AA2" title="Cognac"> </iframe>
+</div>
 
 # 5. lundi 18 août : ⟶ Saintes
 
@@ -69,7 +77,9 @@ date: 14 août 2025
 
 - [🏨](https://maps.app.goo.gl/isRpQJ2tq6APXTer7) AJ Saintes, 2 Place Geoffroy Martel, 17100 Saintes, 05.46.92.14.92
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/174150##3D6AA2" title="Saintes"> </iframe>
+</div>
 
 # 6. mardi 19 août : ⟶ Rochefort
 
@@ -81,7 +91,9 @@ date: 14 août 2025
 
 - [🏨](https://maps.app.goo.gl/QnxQRBcQvSck6pCF6) 29, rue Peltier, 17300 Rochefort
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/172990##3D6AA2" title="Rochefort"> </iframe>
+</div>
 
 # 7. mercredi 20 août : ⟶ Ile d'Aix ⟶ Rochefort
 
@@ -91,7 +103,9 @@ date: 14 août 2025
 
 ![](./images/07-map.png)
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/171680##3D6AA2" title="Fouras"> </iframe>
+</div>
 
 # 8. jeudi 21 août : ⟶ La Tremblade
 
@@ -103,7 +117,9 @@ date: 14 août 2025
 
 - [🏨](https://maps.app.goo.gl/Kj2U1X4C7vJxfkea8) 54, rue de la Noue, 17390 La Tremblade
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/174520##3D6AA2" title="La Tremblade"> </iframe>
+</div>
 
 # 9. vendredi 22 août : ⟶ Royan
 
@@ -115,18 +131,24 @@ date: 14 août 2025
 
 - [🏨](https://maps.app.goo.gl/sLRhc9wo9v4vpRc76) 78 boulevard Franck Lamy, 17200 Royan
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/173060##3D6AA2" title="Royan"> </iframe>
+</div>
 
 # 10. samedi 23 août : ⟶ Soulac ⟶ Royan
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/335140##3D6AA2" title="Soulac"> </iframe>
+</div>
 
 # 11. dimanche 24 août : ⟶ La Rochelle
 
 - 🚆  Royan 09:28 - 09:53 Saintes 10:06 - 11:11 La Rochelle
 - [🏨](https://maps.app.goo.gl/p4o4YgM4hH6MZne67) AJ, Avenue des Minimes, 17000 La Rochelle, 05.46.44.43.11
 
+<div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/173000##3D6AA2" title="La Rochelle"> </iframe>
+</div>
 
 # 12. lundi 25 août : ⟶ Paris
 
