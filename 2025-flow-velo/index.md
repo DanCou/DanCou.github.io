@@ -11,6 +11,10 @@ date: 14 août 2025
 
 # 1. jeudi 14 août : Limoges ⟶ La Coquille
 
+<div style="display: flex; justify-content: center; align-items: center;">
+<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/870850##3D6AA2" title="Limoges"> </iframe>
+</div>
+
 - 🚆 Limoges 12:18 - 15:00 Saint Yrieix
 - [🚲 GPX](./files/01-st-yrieix-la-coquille.gpx)
 
