@@ -23,7 +23,14 @@ jobs:
       run: |
         echo "Finding all .md files..."
         find . -name "*.md" -type f | while IFS= read -r mdfile; do
-          htmlfile="${mdfile%.md}.html"
+          dir="$(dirname "$mdfile")"
+          base="$(basename "$mdfile")"
+          num="$(echo "$base" | grep -oE '^[0-9]+')"
+          if [ -n "$num" ]; then
+            htmlfile="$dir/$num.html"
+          else
+            htmlfile="${mdfile%.md}.html"
+          fi
           echo "Converting $mdfile -> $htmlfile"
           pandoc "$mdfile" -o "$htmlfile"
           if [ -f "$htmlfile" ]; then
