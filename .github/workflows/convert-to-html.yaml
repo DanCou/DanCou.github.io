@@ -41,6 +41,13 @@ jobs:
           pwd
           ls -lh "$htmlfile" 2>&1 || echo "File not found: $htmlfile"
         done
+        echo "=== Explicitly converting any index.md files ==="
+        for idx in $(find . -name "index.md" -type f); do
+          idxdir="$(dirname "$idx")"
+          echo "Converting $idx -> $idxdir/index.html"
+          pandoc "$idx" -o "$idxdir/index.html" 2>&1 || echo "Failed to convert $idx"
+          ls -lh "$idxdir/index.html" 2>&1 || echo "Index HTML not found: $idxdir/index.html"
+        done
         echo "=== All HTML files in repository ==="
         find . -name "*.html" -type f
 
