@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gpx version="1.1" creator="outdooractive - http://www.outdooractive.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:oa="http://www.outdooractive.com/GPX/Extensions/1">
   <metadata>
-    <name>La Coquille - Thiviers</name>
+    <name>La Coquille - Nontron</name>
     <author>
       <name>Daniel Courivaud - Community</name>
     </author>
@@ -17,7 +17,7 @@
   </wpt>
 
   <trk>
-    <name>La Coquille - Thiviers</name>
+    <name>La Coquille - Nontron</name>
     <type>racingBike</type>
     <trkseg>
       <trkpt lat="45.541511" lon="0.977369">

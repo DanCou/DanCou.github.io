@@ -9,7 +9,7 @@ date: 14 août 2025
 
 - [Le site officiel](https://www.laflowvelo.com/)
 
-# 1. jeudi 14 août : Limoges ⟶ La Coquille
+# 1. jeudi 14 août : Limoges ⟶ Saint Yrieix ⟶ La Coquille
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/870850##3D6AA2" title="Limoges"> </iframe>
