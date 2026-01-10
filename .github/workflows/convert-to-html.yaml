@@ -59,6 +59,8 @@ jobs:
         echo "=== Git status before add ==="
         git status
         echo "=== Adding all files ==="
+        # Force-add generated HTML even if .gitignore excludes them
+        find . -name "*.html" -type f -exec git add -f {} \; || true
         git add . || true
         echo "=== Git status after add ==="
         git status
