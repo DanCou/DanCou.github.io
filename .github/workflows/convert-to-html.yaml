@@ -21,26 +21,28 @@ jobs:
 
     - name: Convert all Markdown files to HTML
       run: |
-        echo "Finding all .md files..."
-        find . -name "*.md" -type f | while IFS= read -r mdfile; do
+        set -x
+        echo "=== Current working directory ==="
+        pwd
+        echo "=== Finding all .md files ==="
+        find . -name "*.md" -type f
+        echo "=== Starting conversions ==="
+        for mdfile in $(find . -name "*.md" -type f); do
           dir="$(dirname "$mdfile")"
           base="$(basename "$mdfile")"
-          num="$(echo "$base" | grep -oE '^[0-9]+')"
+          num="$(echo "$base" | grep -oE '^[0-9]+' || echo '')"
           if [ -n "$num" ]; then
             htmlfile="$dir/$num.html"
           else
             htmlfile="${mdfile%.md}.html"
           fi
           echo "Converting $mdfile -> $htmlfile"
-          pandoc "$mdfile" -o "$htmlfile" 2>&1 || echo "ERROR: Pandoc failed for $mdfile"
-          if [ -f "$htmlfile" ]; then
-            echo "✓ Successfully created $htmlfile (size: $(stat -c%s "$htmlfile") bytes)"
-          else
-            echo "✗ FAILED to create $htmlfile"
-          fi
+          pandoc "$mdfile" -o "$htmlfile" 2>&1
+          pwd
+          ls -lh "$htmlfile" 2>&1 || echo "File not found: $htmlfile"
         done
-        echo "=== Listing all HTML files after conversion ==="
-        find . -name "*.html" -type f 2>/dev/null | head -20
+        echo "=== All HTML files in repository ==="
+        find . -name "*.html" -type f
 
     - name: Commit and push HTML files
       run: |
