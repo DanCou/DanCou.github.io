@@ -19,31 +19,33 @@ jobs:
     - name: Install Pandoc
       run: sudo apt-get update && sudo apt-get install -y pandoc
 
-    - name: Get list of changed Markdown files
-      id: changed
+    - name: Convert all Markdown files to HTML
       run: |
-        git fetch origin main
-        git diff --name-only HEAD^ HEAD | grep '\.md$' || true > changed_files.txt
-        echo "Changed files:"
-        cat changed_files.txt
-
-    - name: Convert only changed Markdown to HTML
-      run: |
-        while IFS= read -r mdfile; do
-          [ -f "$mdfile" ] || continue  # Skip if file was deleted
+        echo "Finding all .md files..."
+        find . -name "*.md" -type f | while IFS= read -r mdfile; do
           htmlfile="${mdfile%.md}.html"
           echo "Converting $mdfile -> $htmlfile"
           pandoc "$mdfile" -o "$htmlfile"
-        done < changed_files.txt
+          if [ -f "$htmlfile" ]; then
+            echo "Successfully created $htmlfile"
+          else
+            echo "Failed to create $htmlfile"
+          fi
+        done
 
     - name: Commit and push HTML files
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
-        git add *.html
+        echo "Checking for HTML files to add..."
+        ls -la *.html || echo "No HTML files found in root"
+        find . -name "*.html" -type f
+        git add **/*.html *.html || true
         if git diff --cached --quiet; then
           echo "No HTML files to commit"
         else
+          echo "Committing HTML files..."
+          git status
           git commit -m "Update HTML from modified Markdown"
           git push
         fi
