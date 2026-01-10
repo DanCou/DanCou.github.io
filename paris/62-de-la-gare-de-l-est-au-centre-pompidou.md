@@ -1,0 +1,269 @@
+---
+title: De la Gare de l'Est au Centre Pompidou
+---
+
+<style>
+.go {
+ border: 1px solid black;
+ padding: 10px;
+ text-align: center;
+ background-color: honeydew;
+ margin: 20px;
+}
+.question {
+ border: 1px solid black;
+ padding: 10px;
+ text-align: center;
+ background-color: lightcyan;
+ margin: 20px;
+}
+.interest {
+ border: 1px solid black;
+ padding: 10px;
+ text-align: center;
+ background-color: papayawhip;
+ margin: 20px;
+}
+</style>
+
+<div class="go">
+Départ devant la Gare de l'Est.
+</div>
+
+<div class="go">
+Prenez le boulevard de Strasbourg en face de vous, et traversez le boulevard Magenta.
+</div>
+
+<details class="question">
+<summary>Le 1er C&A ?</summary>
+Au-dessus du porche du 69 boulevard de Magenta, le monogramme C et A est gravé.
+</details>
+
+<div class="go">
+Continuez boulevard de Strasbourg, puis tournez à droite rue de la Fidélité.
+</div>
+
+<details class="question">
+<summary>Envahisseur de l'espace.</summary>
+Un space invader géant se trouve sur le mur adjacent du 1 rue de la Fidélité, au 1er étage.
+</details>
+
+<details class="question">
+<summary>Hermès, messager des dieux.</summary>
+Hermès est statufié au 3è étage du 18 rue de la Fidélité, qui est l'Hôtel de Londres et du Brésil.
+</details>
+
+<div class="go">
+Tournez à gauche rue du faubourg St Denis. Remarquez les anciens ateliers reconvertis en lofts au 1er étage du 95 rue du faubourg St Denis.
+</div>
+
+<details class="question">
+<summary>Laissez le Désir où il est.</summary>
+Au n°84 de la rue, se trouve le Passage du Désir.
+</details>
+
+<details class="question">
+<summary>Peut-être pour y voir deux fois mieux ?</summary>
+Deux gigantesques paires de lunettes signalent la boutique de l'opticien situé 77 de la rue du faubourg St Denis.
+</details>
+
+<div class="go">
+Tournez à gauche rue du Château d'eau.
+</div>
+
+<details class="question">
+<summary>Ancien cabinet d'analyses (difficile).</summary>
+Au-dessus de la pharmacie du n°76 rue du Château d'Eau subsiste, au 1er étage, une vieille enseigne « Analyses, Ordonnances, Spécialités ».
+</details>
+
+<div class="go">
+Traversez le boulevard de Strasbourg, puis continuez rue du Château d'Eau.
+</div>
+
+<details class="question">
+<summary>Quatre quartiers cachés (difficile)</summary>
+Sur la façade de la Mairie du 10è arrondissement, autour de chacune des portes d'entrée, les noms des quatre quartiers de l'arrondissement sont mentionnés, dans des cartouches en marbre rouge : Quartier de l'Hôpital St Louis, Quartier de St Vincent de Paul, Quartier de la Porte St Denis, Quartier de la Porte St Martin.
+</details>
+
+<div class="go">
+Continuez rue du Château d'Eau.
+</div>
+
+<details class="question">
+<summary>C'est la plus petite maison de Paris (difficile)</summary>
+La plus petite maison de Paris se trouve au n°39 de la rue du Château d'Eau. Ses dimensions sont de 1,40 mètres de largeur pour une hauteur de 5 mètres. La profondeur de la bâtîsse ne dépasse pas les 3 mètres. Cette bizarrerie Parisienne serait le résultat d'une querelle de succession. Il existait là un passage entre les rues du Faubourg-Saint-Martin et du Château d'Eau. Une discorde entre les héritiers de ce minuscule passage les auraient conduits à le condamner en élevant cette curieuse demeure.
+</details>
+
+<div class="go">
+Tournez à droite rue Bouchardon, puis à droite passage du Marché, puis à gauche rue du faubourg St Martin.
+</div>
+
+<details class="question">
+<summary>Héros de jeu vidéo et envahisseur de l'espace.</summary>
+Sonic est représenté près d'un space invader, sur le mur d'angle du 36 rue du faubourg St Martin.
+</details>
+
+<details class="question">
+<summary>Cherchez l'Hôtel de Bourgogne.</summary>
+L'enseigne, à demi-effacée, au 1er étage du 15 rue du faubourg St Martin. rappelle l'ancien nom de cet immeuble.
+</details>
+
+<div class="interest">
+Remarquez la vieille enseigne au 3 rue du faubourg St Martin ; ce devait être un magasin, peut-être une auberge.
+</div>
+
+<div class="go">
+Traversez le boulevard St Martin et prenez la rue St Martin. Tournez à gauche rue Meslay.
+</div>
+
+<details class="question">
+<summary>Elle écrivit la Mare au Diable.</summary>
+La maison natale de George Sand se trouve au 46 rue Meslay.
+</details>
+
+<details class="question">
+<summary>Encore une femme…mais peintre celle-là !</summary>
+Au 49 rue Meslay, au 1er étage, deux bas-reliefs représentent deux femmes. Celle de droite peint.
+</details>
+
+<details class="question">
+<summary>Cherchez le singe (très difficile).</summary>
+Au 45 rue Meslay, au 1er étage, il y a quatre têtes sculptées de femmes. Derrière la seconde, se trouve un singe en arrière-plan. Il s'agit d'un hôtel particulier d'époque Louis XVI.
+</details>
+
+<div class="go">
+Descendez l'escalier, passage du Pont aux Biches, puis prenez la rue Volta.
+</div>
+
+<details class="question">
+<summary>Cherchez le pilori.</summary>
+Sur l'un des deux panneaux de sens interdit (celui de droite), un montage astucieux a transformé l'original en personnage cloué au pilori. La barre blanche étant l'armature principale du pilori.
+</details>
+
+<div class="interest">
+Ecole municipale Turgot, au n°40 de la rue Volta.
+</div>
+
+<div class="go">
+Continuez rue Volta ; traversez la rue Réaumur, puis poursuivez rue Volta.
+</div>
+
+<details class="question">
+<summary>Rue Frépillon (difficile)</summary>
+C'est l'ancien nom de la rue Volta, au 1er étage, à l'angle de la rue Réaumur.
+</details>
+
+<details class="question">
+<summary>Ancienne plus vieille maison de Paris.</summary>
+On a longtemps pensé que la maison du n° 3 était la plus vieille maison de Paris et qu'elle datait de 1300, alors qu'elle date de 1644 comme on le découvrit en 1979. En fait, sauf nouvelle surprise, la plus ancienne maison de Paris se trouve non loin de là, au 51 rue de Montmorency. Il s'agit de la maison de Nicolas Flamel, datée de 1407.
+</details>
+
+<div class="go">
+Tournez à gauche rue au Maire, puis à droite rue des Vertus, à gauche rue des Gravilliers. Continuez rue Pastourelle.
+</div>
+
+<details class="question">
+<summary>Ici on pratique l'électrolyse.</summary>
+Au 40 rue Pastourelle se trouve un magasin pratiquant la dorure, l'argenture, et le plaquage. Son nom : « L'électrolyse du Marais ».
+</details>
+
+<div class="go">
+Traversez la rue des Archives. Prenez la rue de Beausse.
+</div>
+
+<div class="interest">
+C'est l'ancienne orthographe de la rue de Beauce, dont le nom est gravé au-dessus du nouveau.
+</div>
+
+<div class="go">
+Prenez la rue de Beauce à gauche.
+</div>
+
+<div class="interest">
+Si le porche du n°16 est ouvert, entrez dans le petit marché des Enfants Rouges puis sortez à droite rue Charlot. Ce nom vient de la proximité de l'Hospice des Enfants-Rouges créé par Marguerite de Navarre pour des orphelins dont l'uniforme était rouge.
+</div>
+
+<div class="go">
+Sinon, tournez à droite rue de Bretagne.
+</div>
+
+<details class="question">
+<summary>Cherchez la lucarne à poulie (difficile).</summary>
+Au 3è étage du 26 de la rue Charlot subsiste une très belle lucarne, qui a conservé sa poulie. Rappelons-nous que le cheval était omniprésent au 17è siècle : pour se déplacer, pour tirer des charrettes, pour se battre, pour se promener… Les lucarnes étaient en fait des accès aux greniers, et la poulie servait à y monter les sacs de luzerne, de paille ou de foin dont ils se nourrissaient. Le grenier, quand il était plein, était aussi un excellent isolant contre le froid et l'humidité.
+</details>
+
+<details class="question">
+<summary>Acteur reconverti ?</summary>
+Au 29 rue Charlot, une enseigne mentionne : « Depardieu, orfèvrerie, argent ».
+</details>
+
+<div class="go">
+Traversez la rue de Poitou, puis tournez à droite rue des Quatre Fils.
+</div>
+
+<div class="interest">
+Voici la légende des Quatre Fils Aymon : Les quatre fils Aymon sont des preux célébrés par la littérature médiévale issue des chansons de geste du cycle carolingien aux thèmes chevaleresques, notamment de la Chanson des quatre fils Aymon. Ils en sont les principaux protagonistes, avec l'enchanteur Maugis, le roi Charlemagne et le cheval magique Bayard. Nommés Renaud, Alard, Richard et Guichard, fils du comte Aymon de Dordonne et de son épouse Aja (parfois Vorsie), ils s'opposent au roi Charlemagne qui ne cesse de les poursuivre. Bayard disparut dans un mur et avec lui les quatre frères Aymon qui le chevauchaient. Leur légende est d'origine française, mais elle a connu une vaste diffusion dans de nombreux pays, notamment en Belgique, en Italie, en Allemagne et dans les Flandres aux Pays-Bas, soutenue par l'invention de l'imprimerie. La diffusion de ce récit connaît son apogée de la Renaissance au 19e siècle.
+</div>
+
+<div class="go">
+Si la grille du n°11 de la rue des Archives est ouverte, entrez dans le jardin des Archives Nationales, sinon continuez dans la rue des Quatre Fils et tournez à droite rue du Temple.
+</div>
+
+<details class="question">
+<summary>Cherchez l'été (difficile).</summary>
+Dans la cour principale de l'Hôtel de Soubise, qui abrite les Archives Nationales, plusieurs statues encadrent l'entrée principale. Elles représentent les quatre saisons. La deuxième, avec sa faucille, est l'été.
+</details>
+
+<div class="go">
+Continuez rue de Braque, en face.
+</div>
+
+<details class="question">
+<summary>C'est la Guerre des Mondes !</summary>
+Encore un space invader, cette fois-ci au 1er étage du 4 rue de Braque..
+</details>
+
+<details class="question">
+<summary>Repaire de boucs.</summary>
+Deux têtes de boucs encadrent le porche du 6 rue de Braque.
+</details>
+
+<div class="go">
+Tournez à droite rue du Temple.
+</div>
+
+<details class="question">
+<summary>C'est « un grand homme de petite taille ». Trouvez-le.</summary>
+C'est ainsi qu'était surnommé Gassendi, ainsi que l'atteste une plaque à droite du porche du 79 rue du Temple.
+</details>
+
+<div class="interest">
+Hôtel de Sainte Avoye. C'est le nom de cet hôtel, au 72 rue du Temple. La plaque qui le rappelle est à ½ effacée.
+</div>
+
+<details class="question">
+<summary>Cherchez l'Esprit des lieux..</summary>
+Contre le petit square, à l'angle, un mur a été peint. C'est l'Esprit des lieux.
+</details>
+
+<div class="go">
+Sortez du square et revenez sur vos pas, et empruntez la rue Michel Le Comte.
+</div>
+
+<details class="question">
+<summary>Pour des serrures de géants..</summary>
+Une immense clé, enseigne d'un serrurier, orne la façade du 23 rue Michel Le Comte.
+</details>
+
+<div class="go">
+Tournez à gauche rue Beaubourg.
+</div>
+
+<details class="question">
+<summary>Après les quatre Fils, les quatre saisons, cherchez les quatre égyptiens.</summary>
+Au 6è étage du 43 rue Beaubourg se trouvent quatre immenses statues d'égyptiens.
+</details>
+
+<div class="go">
+Vous êtes arrivé(s)
+</div>
