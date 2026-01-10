@@ -42,16 +42,19 @@ jobs:
 
     - name: Commit and push HTML files
       run: |
+        set -e
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
         echo "Checking for HTML files to add..."
-        find . -name "*.html" -type f -exec git add {} \;
+        find . -name "*.html" -type f -exec git add {} \; || true
         echo "Git status before commit:"
         git status
         if git diff --cached --quiet; then
           echo "No HTML files to commit"
-          exit 0
+        else
+          echo "Committing HTML files..."
+          git commit -m "Update HTML from modified Markdown"
+          echo "Pushing changes..."
+          git push
         fi
-        echo "Committing HTML files..."
-        git commit -m "Update HTML from modified Markdown"
-        git push
+        echo "Workflow completed successfully"
