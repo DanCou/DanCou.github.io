@@ -1,9 +1,59 @@
-Dans le texte ci dessous, identifie les phrases qui demandent un déplacement et isole les et en mettant le caractère # en tête
-identifie les phrases qui invitent à chercher quelque chose et isole les et en mettant le caractère ? en tête
-à la ligne juste en dessous de ces phrases, il y a la réponse, et isole les et en mettant le caractère ! en tête. Tu peux aussi identifier la réponse et trouver la question juste au dessus.
-identifie les phrases qui sont juste des informations (sans direction à suivre, ni réponse à trouver) et isole les et en mettant le caractère * en tête. Il peut y avoir plus qu'une phrase. Il faut les regrouper en un seul paragraphe.
-Il faudra parfois couper des phrases composées qui contiennent par exemple à la fois une direction à suivre et quelque chose à chercher.
-Assure toi de n'avoir supprimé aucun texte. Tu peux marquer les phrases dont tu ne sais pas quoi faire avec un +
-Chaque caractère ajouté (#*?!+) doit être suivi d'un espace
+Il faut transférer le contenu d'un texte source html dans un texte cible markdown.
+
+Dans le fichier source html ci dessous, identifie la balise <div itemprop="articleBody">. Elle contient l'information. Dans cette balise
+- le contenu des balises <p>...</p> sont des consignes de déplacement, des informations ou des questions
+- le contenu des balises <p><i>...</i></p> sont des réponses à des questions
+
+L'objectif est de récupérer le texte des consignes et le texte des réponses dans le fichier source.
+
+Dans le fichier cible :
+- les consignes de déplacement doivent être insérées dans une balise <div class="go">
+- les informations doivent être insérées dans une balise <div class="interest">
+- les questions et les réponses associées doivent être formattées comme ci dessous
+
+<details class="question">
+<summary>Texte de la question</summary>
+Texte de la réponse associée
+</details>
+
+Lorsque c'est terminé, extrait le titre du nom du fichier source pour fabriquer le nom du fichier cible
+
+Par exemple :
+- source : "Balade n°75 - Du métro Rambuteau à République - solution - Paris le nez en l'air"
+- cible : 75-du-metro-rambuteau-a-republique.md
+
+insère ensuite l'en tête, un titre et une balise <style>
+
+---
+title: Du métro Rambuteau à République
+---
+
+<style>
+.go {
+ border: 1px solid black;
+ padding: 10px;
+ text-align: center;
+ background-color: honeydew;
+ margin: 20px;
+}
+.question {
+ border: 1px solid black;
+ padding: 10px;
+ text-align: center;
+ background-color: lightcyan;
+ margin: 20px;
+}
+.interest {
+ border: 1px solid black;
+ padding: 10px;
+ text-align: center;
+ background-color: papayawhip;
+ margin: 20px;
+}
+</style>
+
+
+
+
 
 Voilà le texte
