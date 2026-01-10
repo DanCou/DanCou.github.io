@@ -32,13 +32,17 @@ jobs:
             htmlfile="${mdfile%.md}.html"
           fi
           echo "Converting $mdfile -> $htmlfile"
-          pandoc "$mdfile" -o "$htmlfile"
+          pandoc "$mdfile" -o "$htmlfile" 2>&1 || echo "ERROR: Pandoc failed for $mdfile"
           if [ -f "$htmlfile" ]; then
-            echo "Successfully created $htmlfile"
+            echo "✓ Successfully created $htmlfile (size: $(stat -c%s "$htmlfile") bytes)"
+            ls -lh "$htmlfile"
           else
-            echo "Failed to create $htmlfile"
+            echo "✗ FAILED to create $htmlfile"
+            exit 1
           fi
         done
+        echo "=== Listing all HTML files after conversion ==="
+        find . -name "*.html" -type f -ls
 
     - name: Commit and push HTML files
       run: |
