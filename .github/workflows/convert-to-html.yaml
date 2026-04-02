@@ -7,36 +7,67 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
 
     - name: Install Pandoc
       run: sudo apt-get update && sudo apt-get install -y pandoc
 
-    - name: Get list of changed Markdown files
-      id: changed
+    - name: Convert all Markdown files to HTML
       run: |
-        git fetch origin main
-        git diff --name-only HEAD^ HEAD | grep '\.md$' || true > changed_files.txt
-        echo "Changed files:"
-        cat changed_files.txt
-
-    - name: Convert only changed Markdown to HTML
-      run: |
-        while IFS= read -r mdfile; do
-          [ -f "$mdfile" ] || continue  # Skip if file was deleted
-          htmlfile="${mdfile%.md}.html"
+        set -x
+        echo "=== Current working directory ==="
+        pwd
+        echo "=== Finding all .md files ==="
+        find . -name "*.md" -type f
+        echo "=== Starting conversions ==="
+        for mdfile in $(find . -name "*.md" -type f); do
+          dir="$(dirname "$mdfile")"
+          base="$(basename "$mdfile")"
+          num="$(echo "$base" | grep -oE '^[0-9]+' || echo '')"
+          if [ -n "$num" ]; then
+            htmlfile="$dir/$num.html"
+          else
+            htmlfile="${mdfile%.md}.html"
+          fi
           echo "Converting $mdfile -> $htmlfile"
-          pandoc "$mdfile" -o "$htmlfile"
-        done < changed_files.txt
+          pandoc "$mdfile" -o "$htmlfile" 2>&1
+          pwd
+          ls -lh "$htmlfile" 2>&1 || echo "File not found: $htmlfile"
+        done
+        echo "=== Explicitly converting any index.md files ==="
+        for idx in $(find . -name "index.md" -type f); do
+          idxdir="$(dirname "$idx")"
+          echo "Converting $idx -> $idxdir/index.html"
+          pandoc "$idx" -o "$idxdir/index.html" 2>&1 || echo "Failed to convert $idx"
+          ls -lh "$idxdir/index.html" 2>&1 || echo "Index HTML not found: $idxdir/index.html"
+        done
+        echo "=== All HTML files in repository ==="
+        find . -name "*.html" -type f
 
     - name: Commit and push HTML files
       run: |
+        echo "=== Setting up Git configuration ==="
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
-        git add .
-        git diff --cached --quiet || git commit -m "Update HTML from modified Markdown"
-        git push
-      continue-on-error: true
+        echo "=== Git status before add ==="
+        git status
+        echo "=== Adding all files ==="
+        # Force-add generated HTML even if .gitignore excludes them
+        find . -name "*.html" -type f -exec git add -f {} \; || true
+        git add . || true
+        echo "=== Git status after add ==="
+        git status
+        echo "=== Attempting commit ==="
+        git commit -m "Update HTML from modified Markdown" || echo "No changes to commit"
+        echo "=== Git status after commit ==="
+        git status
+        echo "=== Attempting push ==="
+        git push || echo "Nothing to push"
+        echo "=== Workflow completed ===" || true

@@ -1,1 +1,3 @@
-#*.html
+paris/source/
+# Ignore numbered HTML generated in paris (e.g., 03.html, 75.html)
+paris/[0-9][0-9].html
