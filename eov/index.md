@@ -8,16 +8,20 @@ date: 17-21 juin 2026
 @import url("https://unpkg.com/sakura.css/css/sakura.css");
 </style>
 
-# mercredi 17 juin, vers la Roche Guyon
+# Eure et Oise à vélo (17-20 juin 2026)
+
+## mercredi 17 juin, vers la Roche Guyon
 
 ### Hotel Les Bords de Seine ( 01 30 98 32 52 )
+
+1 CHAMBRE TRIPLE A ANNULER
 
 - 21 Rue du Docteur Duval, 95780 La Roche-Guyon, France
 - [📍](https://maps.app.goo.gl/HhDzLDND7VpBDu179)
 
-# jeudi 18 juin, vers Les Andelys
+## jeudi 18 juin, vers Les Andelys
 
-RESERVATION FINALISEE
+RESERVATION FINALISEE. ANNULER l'AUTRE RESERVATION
 
 ### Hotel Les Iris ( 02 32 54 10 41)
 
@@ -29,18 +33,19 @@ RESERVATION FINALISEE
 - 1 chambre double (2 lits simples) : 88€30
 - 174€80 (débit prévu le 15 juin 2026) + TS à régler sur place
 - Annulation gratuite avant le 16 juin à 23:59
-- Booking.com : Numéro de réservation :6954575435, Code confidentiel :9174
 
-# vendredi 19 juin, vers Lyons La Forêt
+## vendredi 19 juin, vers Lyons La Forêt
+
+RESERVATION INCHANGEE
 
 ### Camping Saint Paul ( 02 32 49 42 02 )
 
 - 2 Rte Saint-Paul, 27480 Lyons-la-Forêt
 - [📍](https://maps.app.goo.gl/Y2RxX1dt9uePjyAh6)
 
-# samedi 19 juin, vers Gournay en Bray
+## samedi 19 juin, vers Gournay en Bray
 
-RESERVATION FINALISEE
+RESERVATION FINALISEE. ANNULER l'AUTRE RESERVATION
 
 ### Hotel de Normandie ( 02 35 90 01 08 )
 
@@ -52,5 +57,4 @@ RESERVATION FINALISEE
 - 1 chambre triple (3 lits simples)
 - 178€02 (débit prévu le 13 juin 2026)
 - Annulation gratuite avant le 7 juin à 23:59
-- Booking.com : Numéro de réservation :5608057049, Code confidentiel :6836
 
