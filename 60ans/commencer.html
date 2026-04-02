@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Commencer — Chasse au trésor numérique</title>
+  <style>
+    :root {
+      --bg1: #fefce8;
+      --bg2: #fde68a;
+      --card: #ffffffdd;
+      --text: #3f2b1d;
+      --accent: #b45309;
+      --accent-soft: #ffedd5;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top, var(--bg1), var(--bg2));
+      display: grid;
+      place-items: center;
+      padding: 1.2rem;
+    }
+
+    .card {
+      width: min(900px, 96vw);
+      background: var(--card);
+      border-radius: 24px;
+      padding: 2rem;
+      box-shadow: 0 16px 36px rgba(95, 52, 8, 0.16);
+    }
+
+    h1 {
+      margin: 0 0 0.4rem;
+      color: var(--accent);
+      font-size: clamp(1.8rem, 4.2vw, 2.8rem);
+    }
+
+    .intro {
+      margin: 0 0 1.4rem;
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+
+    .rules {
+      margin: 0;
+      padding-left: 1.2rem;
+      line-height: 1.7;
+    }
+
+    .rules li { margin: 0.45rem 0; }
+
+    .tip {
+      margin-top: 1.4rem;
+      padding: 0.9rem 1rem;
+      border-radius: 12px;
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+    }
+
+    .actions {
+      margin-top: 1.8rem;
+      display: flex;
+      gap: 0.7rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      color: #9a3412;
+      background: var(--accent-soft);
+      padding: 0.6rem 1rem;
+      border-radius: 999px;
+      font-weight: 700;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(154, 52, 18, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Règle du jeu 🗺️</h1>
+    <p class="intro">
+      Bienvenue dans la chasse au trésor numérique de ton anniversaire.
+      Le but est de trouver le jour, l'heure et le point de départ pour la destination surprise en résolvant les indices, étape par étape.
+    </p>
+
+    
+
+    <p class="intro">Lis chaque page attentivement : les indices peuvent être dans le texte, les images ou les liens (éventuellement cachés).</p>
+
+    <p class="intro">La réponse à l'énigme de la page te donnera l'adresse de la page suivante.</p>
+
+    <p class="intro">Voici un exemple :</p>
+
+    <ul class="rules">
+      <li>Je suis un animal</li>
+      <li>J'aime dormir et chasser</li>
+      <li>Je fais "miaou"</li>
+    </ul>
+
+    <p class="intro">Qui suis-je ?</p>
+
+    <p class="tip">✅ Réponse : chat<br/>➡️ URL suivante : <a href="chat.html">https://DanCou.github.io/60ans/chat.html</a></p>
+    
+
+    <div class="actions">
+      <a class="btn" href="index.html">⬅ Retour à l’accueil</a>
+      <a class="btn" href="quete.html">C'est parti !</a>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Joyeux anniversaire Cécile — 60 ans</title>
+  <style>
+    :root {
+      --bg1: #fff7ed;
+      --bg2: #fde68a;
+      --card: #ffffffcc;
+      --text: #3f2b1d;
+      --accent: #d97706;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top left, var(--bg1), var(--bg2));
+      overflow: hidden;
+    }
+
+    .card {
+      width: min(760px, 92vw);
+      padding: 2.2rem;
+      border-radius: 24px;
+      background: var(--card);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 18px 40px rgba(95, 52, 8, 0.16);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.3rem);
+      color: var(--accent);
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      margin: 0.8rem 0 1.6rem;
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      opacity: 0.9;
+    }
+
+    .message {
+      margin: 0 auto;
+      max-width: 56ch;
+      font-size: 1.08rem;
+      line-height: 1.7;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 1.6rem;
+      padding: 0.55rem 1rem;
+      border-radius: 999px;
+      background: #ffedd5;
+      color: #9a3412;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      text-decoration: none;
+    }
+
+    .confetti {
+      position: fixed;
+      width: 10px;
+      height: 16px;
+      top: -20px;
+      opacity: 0.8;
+      animation: fall linear forwards;
+      z-index: 0;
+    }
+
+    @keyframes fall {
+      to {
+        transform: translateY(110vh) rotate(720deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Joyeux anniversaire &nbsp;! 🎉</h1>
+    <p class="subtitle">C'est la cérémonie du soixantième anniversaire ✨</p>
+    <p class="message">
+      Voici un petit jeu de piste pour découvrir la destination surprise de ce week-end. Prends ton temps, il n'y a pas de chrono ⏳ Euh si finalement ! Si tu trouves la réponse lundi, ce sera trop tard...<br/><br/>
+    </p>
+    <a class="badge" href="commencer.html">Commencer</a>
+  </main>
+
+  <script>
+    const colors = ["#f97316", "#f59e0b", "#ef4444", "#10b981", "#3b82f6", "#a855f7"];
+    for (let i = 0; i < 120; i++) {
+      const c = document.createElement("span");
+      c.className = "confetti";
+      c.style.left = Math.random() * 100 + "vw";
+      c.style.background = colors[Math.floor(Math.random() * colors.length)];
+      c.style.animationDuration = (4 + Math.random() * 5) + "s";
+      c.style.animationDelay = (Math.random() * 4) + "s";
+      c.style.transform = `translateY(0) rotate(${Math.random() * 360}deg)`;
+      document.body.appendChild(c);
+    }
+  </script>
+</body>
+</html>
