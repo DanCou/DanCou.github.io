@@ -3,35 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>2 culottes</title>
+  <title>Châtelet</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="page-2">
+<body class="page-chatelet">
   <main class="card">
-    <div class="badge-found">✅ 2 girafes — trouvé !</div>
-
-    <div class="number">2</div>
-    <h2>Le nombre de culottes à emporter !</h2>
-
-    <div class="reveal">
-      <div class="emoji-row">🩲 🩲</div>
-      <p>
-        Pas une de plus, pas une de moins.<br/>
-        Le week-end dure <strong>2 nuits</strong> : prévois en conséquence.<br/>
-        La météo prévoit un temps sec et ensoleillé, températures max au-dessus de 20°C.
-      </p>
-    </div>
+    <div class="badge-found">✅ Chatelet — trouvé !</div>
 
     <section class="tip" id="enigme-lock" aria-live="polite">
       L'énigme suivante sera révélée dans <strong class="strong-red-blink" id="countdown">calcul en cours...</strong>
     </section>
 
-    <section class="enigme" id="enigme-content" aria-label="Enigme metro" hidden>
+    <section class="enigme" id="enigme-content" aria-label="Enigme Chatelet" hidden>
       <h1>Énigme suivante 🔢</h1>
+      <p class="subtitle">Calcule l'heure de rendez-vous à partir de cet indice.</p>
       <p>
-        Je suis une station de métro dont la somme des lignes qu'elle dessert est l'âge du créateur de Babar lorsqu'il est mort.
+        Tu connais le nombre dont on dit qu'il est utile aux sages. Sa première décimale est 1, la deuxième est 4.
+        Si tu prends les décimales de ce nombre en 50, 80, 270, et 330ième position tu obtiens l'heure à laquelle
+        tu dois te retrouver demain à la station Châtelet.
       </p>
-      <img class="illustration" src="image.jpg" alt="Illustration de l'énigme" />
     </section>
 
     <p class="tip" id="enigme-url" hidden>Va à l'URL <strong><u>https://DanCou.github.io/60ans/xxx.html</u></strong> en remplaçant <strong>xxx</strong> par la solution de l'énigme que tu viens de résoudre.</p>
@@ -39,7 +29,7 @@
   </main>
 
   <script>
-    const unlockAt = new Date("2026-04-03T13:00:00Z");
+    const unlockAt = new Date("2026-04-03T17:00:00Z");
     const lockMessage = document.getElementById("enigme-lock");
     const riddleSection = document.getElementById("enigme-content");
     const urlHint = document.getElementById("enigme-url");
@@ -71,7 +61,6 @@
     function updateCountdown() {
       const remaining = unlockAt.getTime() - Date.now();
       if (remaining <= 0) {
-        countdown.textContent = "déverrouillée";
         revealRiddle();
         return true;
       }
@@ -79,6 +68,10 @@
       countdown.textContent = formatCountdown(remaining);
       return false;
     }
+
+    riddleSection.hidden = true;
+    urlHint.hidden = true;
+    lockMessage.hidden = false;
 
     if (!updateCountdown()) {
       const intervalId = window.setInterval(() => {

@@ -3,43 +3,30 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>2 culottes</title>
+  <title>09:00</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="page-2">
+<body class="page-0900">
   <main class="card">
-    <div class="badge-found">✅ 2 girafes — trouvé !</div>
-
-    <div class="number">2</div>
-    <h2>Le nombre de culottes à emporter !</h2>
-
-    <div class="reveal">
-      <div class="emoji-row">🩲 🩲</div>
-      <p>
-        Pas une de plus, pas une de moins.<br/>
-        Le week-end dure <strong>2 nuits</strong> : prévois en conséquence.<br/>
-        La météo prévoit un temps sec et ensoleillé, températures max au-dessus de 20°C.
-      </p>
-    </div>
+    <div class="badge-found">✅ 09:00 — trouvé !</div>
 
     <section class="tip" id="enigme-lock" aria-live="polite">
       L'énigme suivante sera révélée dans <strong class="strong-red-blink" id="countdown">calcul en cours...</strong>
     </section>
 
-    <section class="enigme" id="enigme-content" aria-label="Enigme metro" hidden>
+    <section class="enigme" id="enigme-content" aria-label="Enigme 0900" hidden>
       <h1>Énigme suivante 🔢</h1>
+      <p class="subtitle">La station Châtelet a été choisie parce qu'elle se trouve à peu près à égale distance des 6 gares parisiennes. Pour maintenir le suspense jusqu'au bout ! Le temps presse et il faut faire vite. La destination est gare de Lyon</p>
       <p>
-        Je suis une station de métro dont la somme des lignes qu'elle dessert est l'âge du créateur de Babar lorsqu'il est mort.
+        Mon horloge a été arrêtée à la suite de la tempête du 26 décembre 1999. La réponse à cette énigme est la somme des chiffres qui composent la date de remise en marche (donnée sous la forme jjmmaaaa). <a href="https://fr.wikipedia.org/wiki/Paris-Gare-de-Lyon" target="_blank">Un indice.</a>
       </p>
-      <img class="illustration" src="image.jpg" alt="Illustration de l'énigme" />
     </section>
 
     <p class="tip" id="enigme-url" hidden>Va à l'URL <strong><u>https://DanCou.github.io/60ans/xxx.html</u></strong> en remplaçant <strong>xxx</strong> par la solution de l'énigme que tu viens de résoudre.</p>
-
   </main>
 
   <script>
-    const unlockAt = new Date("2026-04-03T13:00:00Z");
+    const unlockAt = new Date("2026-04-04T07:30:00Z");
     const lockMessage = document.getElementById("enigme-lock");
     const riddleSection = document.getElementById("enigme-content");
     const urlHint = document.getElementById("enigme-url");
@@ -71,7 +58,6 @@
     function updateCountdown() {
       const remaining = unlockAt.getTime() - Date.now();
       if (remaining <= 0) {
-        countdown.textContent = "déverrouillée";
         revealRiddle();
         return true;
       }
@@ -79,6 +65,10 @@
       countdown.textContent = formatCountdown(remaining);
       return false;
     }
+
+    riddleSection.hidden = true;
+    urlHint.hidden = true;
+    lockMessage.hidden = false;
 
     if (!updateCountdown()) {
       const intervalId = window.setInterval(() => {
