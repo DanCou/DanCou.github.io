@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Flow Vélo
 date: 14 août 2025
 ---

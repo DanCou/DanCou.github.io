@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    {% if page.title %}
+    <h1>{{ page.title }}</h1>
+    {% endif %}
+    
+    {% if page.date %}
+    <p style="color: var(--text-muted); margin-bottom: 2rem;">{{ page.date }}</p>
+    {% endif %}
+    
+    {{ content }}
+  </div>
+</body>
+</html>
