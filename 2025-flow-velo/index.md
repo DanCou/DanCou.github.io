@@ -9,38 +9,35 @@ date: 14 août 2025
 
 - [Le site officiel](https://www.laflowvelo.com/)
 
-# 1. jeudi 14 août : Limoges ⟶ Saint Yrieix ⟶ La Coquille
+# 1. dimanche 26 avril : Limoges ⟶ Thiviers
+
+🚆 Limoges 16:18 - 17:03 Thiviers
+
+[🏨](https://maps.app.goo.gl/bMN2qgM4Y1PWKgge6) [Camping le repaire, 24800 Thiviers, France](https://www.booking.com/hotel/fr/mobil-home-thiviers.fr.html)
 
 <div style="display: flex; justify-content: center; align-items: center;">
-<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/870850##3D6AA2" title="Limoges"> </iframe>
+<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/245510##3D6AA2" title="Thiviers"> </iframe>
 </div>
 
-- 🚆 Limoges 12:18 - 15:00 Saint Yrieix
-- [🚲 GPX](./files/01-st-yrieix-la-coquille.gpx)
 
-![](./images/01-elevation.png)
+# 2. lundi 27 avril : ⟶ Vouzan
 
-![](./images/01-map.png)
-
-- [🏨](https://maps.app.goo.gl/DqpGEqF1U49bcsPg8) Le Refuge des Pélerins, Impasse Saint-Jean, 24450 La Coquille, 05.53.52.64.25
-
-<div style="display: flex; justify-content: center; align-items: center;">
-<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/241330##3D6AA2" title="La Coquille"> </iframe>
-</div>
-
-# 2. vendredi 15 août : ⟶ Nontron
-
-- [🚲 GPX](./files/02-la-coquille-nontron.gpx)
+- [🚲 Thiviers - Nontron](./files/02-la-coquille-nontron.gpx)
+- [🚲 Nontron - Marthon](./files/3-nontron-angouleme.gpx)
 
 ![](./images/02-elevation.png)
 
 ![](./images/02-map.png)
 
+![](./images/03-elevation.png)
 
-- [🏨](https://maps.app.goo.gl/uWECs62TbhtB2sN48) Camping L'Agrion Bleu, 120 Route du stade - St Martial de Valette - 24300 - Nontron, 05.53.56.02.04
+![](./images/03-map.png)
+
+
+- [🏨](https://maps.app.goo.gl/t3oU5ogJ51rCcmhP8)[L'orée du Bois, 683 Maison Neuve, 16410 Vouzan](https://www.booking.com/hotel/fr/oree-de-bois.fr.html)
 
 <div style="display: flex; justify-content: center; align-items: center;">
-<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/243110##3D6AA2" title="Nontron"> </iframe>
+<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/164220##3D6AA2" title="Vouzan"> </iframe>
 </div>
 
 # 3. samedi 16 août : ⟶ Angoulême
