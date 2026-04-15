@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Balades parisiennes
+permalink: /paris/
 ---
 
 - 03 [Batignolles - Gare St Lazare](03.html)

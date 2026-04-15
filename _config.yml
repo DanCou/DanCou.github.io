@@ -1,0 +1,26 @@
+title: DanCou
+lang: fr
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+theme: null
+
+# Keep future collection migration explicit and optional.
+collections:
+  paris_walks:
+    output: true
+    permalink: /paris/:name/
+  trips:
+    output: true
+    permalink: /trips/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - vendor
+  - node_modules
