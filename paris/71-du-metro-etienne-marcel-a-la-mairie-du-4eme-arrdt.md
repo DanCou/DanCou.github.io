@@ -1,30 +1,7 @@
 ---
 title: Du métro Etienne Marcel à la mairie du 4ème arrdt
+show_title: true
 ---
-
-<style>
-.go {
- border: 1px solid black;
- padding: 10px;
- text-align: center;
- background-color: honeydew;
- margin: 20px;
-}
-.question {
- border: 1px solid black;
- padding: 10px;
- text-align: center;
- background-color: lightcyan;
- margin: 20px;
-}
-.interest {
- border: 1px solid black;
- padding: 10px;
- text-align: center;
- background-color: papayawhip;
- margin: 20px;
-}
-</style>
 
 <div class="go">
 Prenez la rue Pierre Lescot. Tournez à gauche rue du Cygne, puis à droite rue St Denis.

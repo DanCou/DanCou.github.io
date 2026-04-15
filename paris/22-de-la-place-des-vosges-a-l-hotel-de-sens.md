@@ -1,30 +1,7 @@
 ---
 title: De la Place des Vosges à l'Hôtel de Sens
+show_title: true
 ---
-
-<style>
-.go {
- border: 1px solid black;
- padding: 10px;
- text-align: center;
- background-color: honeydew;
- margin: 20px;
-}
-.question {
- border: 1px solid black;
- padding: 10px;
- text-align: center;
- background-color: lightcyan;
- margin: 20px;
-}
-.interest {
- border: 1px solid black;
- padding: 10px;
- text-align: center;
- background-color: papayawhip;
- margin: 20px;
-}
-</style>
 
 <div class="interest">
 Départ Place des Vosges, au niveau de la rue de Béarn

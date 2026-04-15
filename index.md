@@ -9,7 +9,7 @@ permalink: /
 ## Balades et voyages
 
 - [Balades parisiennes](./paris/)
-- [Flow Vélo 2025](./2025-flow-velo/)
+- [Flow Vélo 2026](./2026-flow-velo/)
 - [Munich - Venise 2025](./2025-munich-venise/)
 - [Bretagne](./bretagne/)
 - [Eau et Vin](./eov/)

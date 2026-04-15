@@ -3,11 +3,6 @@ title: La mer d'Iroise
 date: 12-19 juillet 2025
 ---
 
-<style type="text/css">
-@import url("https://unpkg.com/sakura.css/css/normalize.css");
-@import url("https://unpkg.com/sakura.css/css/sakura.css");
-</style>
-
 # La maison
 
 <https://www.airbnb.fr/rooms/5009565>

@@ -3,11 +3,6 @@ title: Pays bigouden
 date: 13-20 juillet 2024
 ---
 
-<style type="text/css">
-@import url("https://unpkg.com/sakura.css/css/normalize.css");
-@import url("https://unpkg.com/sakura.css/css/sakura.css");
-</style>
-
 # [La maison](https://www.abritel.fr/trips/9208507122516/)
 
 ![Kerlan Plonivel, 29740 Plobannalec-Lesconil](images/maison.png) 

@@ -1,30 +1,7 @@
 ---
 title: Du métro Boucicaut au métro Duroc
+show_title: true
 ---
-
-<style>
-.go {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    background-color: honeydew;
-    margin: 20px;
-}
-.question {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    background-color: lightcyan;
-    margin: 20px;
-}
-.interest {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    background-color: papayawhip;
-    margin: 20px;
-}
-</style>
 
 ◉ Départ : devant le métro Boucicaut.
 

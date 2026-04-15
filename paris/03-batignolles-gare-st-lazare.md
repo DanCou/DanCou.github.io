@@ -1,32 +1,9 @@
 ---
 title: Batignolles Gare St Lazare
+show_title: true
 ---
 
-<style>
-.go {
- border: 1px solid black;
- padding: 10px;
- text-align: center;
- background-color: honeydew;
- margin: 20px;
-}
-.question {
- border: 1px solid black;
- padding: 10px;
- text-align: center;
- background-color: lightcyan;
- margin: 20px;
-}
-.interest {
- border: 1px solid black;
- padding: 10px;
- text-align: center;
- background-color: papayawhip;
- margin: 20px;
-}
-</style>
 
-# Solution n°3 - Batignolles/Gare St Lazare
 
 **Départ Métro Rome**
 

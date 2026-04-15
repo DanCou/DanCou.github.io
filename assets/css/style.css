@@ -175,6 +175,79 @@ div[style*="display: flex"] {
   margin: 2rem 0 !important;
 }
 
+/* Paris walk UI blocks */
+.container .go,
+.container .interest,
+.container details.question {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin: 1rem 0;
+  padding: 0.9rem 1rem;
+  box-shadow: 0 6px 16px var(--shadow);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.container .go {
+  background: linear-gradient(135deg, #e6f7ef 0%, #f6fffb 100%);
+  border-left: 6px solid #2fb57c;
+  font-weight: 600;
+}
+
+.container .interest {
+  background: linear-gradient(135deg, #fff8e8 0%, #fffdf7 100%);
+  border-left: 6px solid #e7a52b;
+}
+
+.container details.question {
+  background: linear-gradient(135deg, #eaf5ff 0%, #f8fcff 100%);
+  border-left: 6px solid #3a7ed8;
+}
+
+.container details.question summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--primary-dark);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.container details.question summary::-webkit-details-marker {
+  display: none;
+}
+
+.container details.question summary::before {
+  content: "+";
+  width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #dcebff;
+  color: #2458a8;
+  font-weight: 800;
+  line-height: 1;
+  flex: 0 0 1.35rem;
+}
+
+.container details.question[open] summary::before {
+  content: "-";
+}
+
+.container details.question[open],
+.container .go:hover,
+.container .interest:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+}
+
+.container details.question > :not(summary) {
+  margin-top: 0.65rem;
+  color: #0f223f;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   body {
@@ -192,6 +265,13 @@ div[style*="display: flex"] {
   
   h2 {
     font-size: 1.5rem;
+  }
+
+  .container .go,
+  .container .interest,
+  .container details.question {
+    padding: 0.8rem 0.9rem;
+    margin: 0.8rem 0;
   }
 }
 
