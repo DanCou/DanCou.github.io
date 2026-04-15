@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Flow Vélo
-date: 26 avril 2026
+date: 26 avril - 3 mai 2026
+show_title: true
 ---
 
-# Flow vélo : 458 km +2885 m / -3242 m
+## Flow vélo : 326 km +1730 m / -1975 m
 
 [![](./images/parcours.png)](https://umap.openstreetmap.fr/en/map/flow-velo_1264424#10/45.7124/-0.0536)
 
@@ -12,146 +13,101 @@ date: 26 avril 2026
 
 ## 1. dimanche 26 avril : Limoges ⟶ Thiviers
 
-🚆 Limoges 16:18 - 17:03 Thiviers
+<div class="trip-note trip-train">🚆 Limoges 16:18 - 17:03 Thiviers</div>
 
-[🏨](https://maps.app.goo.gl/bMN2qgM4Y1PWKgge6) [Camping le repaire, 24800 Thiviers, France](https://www.booking.com/hotel/fr/mobil-home-thiviers.fr.html)
+<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/bMN2qgM4Y1PWKgge6">Camping le repaire, 24800 Thiviers, France</a> · <a href="https://www.booking.com/hotel/fr/mobil-home-thiviers.fr.html">Booking</a></div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/245510##3D6AA2" title="Thiviers"> </iframe>
 </div>
 
 
-## 2. lundi 27 avril : ⟶ Vouzan
+## 2. lundi 27 avril : Thiviers ⟶ Nontron ⟶ Vouzan
 
-- [🚲 Thiviers - Nontron](./files/02-la-coquille-nontron.gpx)
-- [🚲 Nontron - Marthon](./files/3-nontron-angouleme.gpx)
+<div class="trip-note trip-bike">🚲 <a href="./files/thiviers-vouzan.gpx">Thiviers - Vouzan GPX</a> . 65 km, 600 D+, 740 D-</div>
 
-![](./images/02-elevation.png)
-
-![](./images/02-map.png)
-
-![](./images/03-elevation.png)
-
-![](./images/03-map.png)
+![](./images/thiviers-vouzan.png)
 
 
-- [🏨](https://maps.app.goo.gl/t3oU5ogJ51rCcmhP8)[L'orée du Bois, 683 Maison Neuve, 16410 Vouzan](https://www.booking.com/hotel/fr/oree-de-bois.fr.html)
+<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/t3oU5ogJ51rCcmhP8">L'orée du Bois, 683 Maison Neuve, 16410 Vouzan</a> · <a href="https://www.booking.com/hotel/fr/oree-de-bois.fr.html">Booking</a></div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/164220##3D6AA2" title="Vouzan"> </iframe>
 </div>
 
-## 3. samedi 16 août : ⟶ Angoulême
+## 3. mardi 28 avril : Vouzan ⟶ Angoulême ⟶ Chateauneuf sur Charente
 
-- [🚲 GPX](./files/3-nontron-angouleme.gpx)
+<div class="trip-note trip-bike">🚲 <a href="./files/vouzan-chateauneufsurcharente.gpx">Vouzan - Chateauneuf sur Charente GPX</a> . 62 km, 380 D+, 480 D-</div>
 
-![](./images/03-elevation.png)
+![](./images/vouzan-chateauneufsurcharente.png)
 
-![](./images/03-map.png)
-
-- [🏨](https://maps.app.goo.gl/7YXNRGmedwTiZPAa8) Appart' City, 70, Avenue de Cognac 16000 Angoulême
+<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/Dzib5nZWz7bTQHrq9">Annexe du pont de la Charente Côté jardin, 16 Rue Guy Barat, 16120 Châteauneuf-sur-Charente</a> . <a href="https://www.booking.com/hotel/fr/annexe-du-pont-de-la-charente.html">Booking</a></div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
-<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/160150##3D6AA2" title="Angoulême"> </iframe>
+<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/160900##3D6AA2" title="Chateauneuf sur Charente"> </iframe>
 </div>
 
-## 4. dimanche 17 août : ⟶ Cognac
+## 4. mercredi 29 avril : Chateauneuf sur Charente ⟶ Cognac ⟶ Saintes
 
-- [🚲 GPX](./files/4-angouleme-cognac.gpx)
+<div class="trip-note trip-bike">🚲 <a href="./files/chateauneufsurcharente-saintes.gpx">Chateauneuf sur Charente - Saintes GPX</a> . 72 km, 340 D+, 365 D-</div>
 
-![](./images/04-elevation.png)
+![](./images/chateauneufsurcharente-saintes.png)
 
-![](./images/04-map.png)
-
-- [🏨](https://maps.app.goo.gl/zBwb7DgEkXsvuQjd6) Sylvie, 28 rue de Boutiers, 16100 Cognac, 06.61.38.65.19
-
-<div style="display: flex; justify-content: center; align-items: center;">
-<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/161020##3D6AA2" title="Cognac"> </iframe>
-</div>
-
-## 5. lundi 18 août : ⟶ Saintes
-
-- [🚲 GPX](./files/05-cognac-saintes.gpx)
-
-![](./images/05-elevation.png)
-
-![](./images/05-map.png)
-
-- [🏨](https://maps.app.goo.gl/isRpQJ2tq6APXTer7) AJ Saintes, 2 Place Geoffroy Martel, 17100 Saintes, 05.46.92.14.92
+<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/EmV4ZVb5BUa5gztA7">La Bastille 1, 1er étage 25 Rue du Lycée Agricole, 17100 Saintes</a> . <a href="https://www.booking.com/hotel/fr/la-bastille-1.html">Booking</a></div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/174150##3D6AA2" title="Saintes"> </iframe>
 </div>
 
-## 6. mardi 19 août : ⟶ Rochefort
+## 5. jeudi 30 avril : Saintes ⟶ Rochefort
 
-- [🚲 GPX](./files/06-saintes-rochefort.gpx)
+<div class="trip-note trip-bike">🚲 <a href="./files/saintes-rochefort.gpx">Saintes - Rochefort GPX</a> . 57 km, 260 D+, 250 D-</div>
 
-![](./images/06-elevation.png)
+![](./images/saintes-rochefort.png)
 
-![](./images/06-map.png)
-
-- [🏨](https://maps.app.goo.gl/QnxQRBcQvSck6pCF6) 29, rue Peltier, 17300 Rochefort
+<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/3Kw1qoVJAZor6n5AA">64 Rue Pierre Loti 17300 Rochefort</a></div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/172990##3D6AA2" title="Rochefort"> </iframe>
 </div>
 
-## 7. mercredi 20 août : ⟶ Ile d'Aix ⟶ Rochefort
+## 6. vendredi 1er mai : Rochefort
 
-- [🚲 GPX](./files/07-rochefort-ile-aix.gpx)
+<div class="trip-note trip-train">🚆 Rochefort 09:14 - 10:37 Saujon</div>
 
-![](./images/07-elevation.png)
+<div class="trip-note trip-bike">🚲 60 km : Saujon - La Tremblade, passeur de la Seudre, Brouage, Rochefort</div>
 
-![](./images/07-map.png)
+## 7. samedi 2 mai : Rochefort
 
-<div style="display: flex; justify-content: center; align-items: center;">
-<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/171680##3D6AA2" title="Fouras"> </iframe>
+<div class="trip-note trip-bus">🚌 Bus Rochefort - Fouras
+<ul>
+<li><a href="https://www.rbus-transport.com/fichier_article/images/2025-11%20Plan%20r%C3%A9seau%20RBUS%20.jpg">🚌 plan du réseau Réseau RBUS</a></li>
+<li><a href="./files/ligne E.pdf">🚌 ligne E</a></li>
+<li><a href="./files/ligne J.pdf">🚌 ligne J</a></li>
+</ul>
 </div>
 
-## 8. jeudi 21 août : ⟶ La Tremblade
+<div class="trip-note trip-hike">🥾 Ile d'Aix</div>
 
-- [🚲 GPX](./files/08-rochefort-la-tremblade.gpx)
+## 8. dimanche 3 mai : Rochefort ⟶ La Rochelle
 
-![](./images/08-elevation.png)
+<div class="trip-note trip-bike">🚲 <a href="./files/rochefort-larochelle.gpx">Rochefort - La Rochelle GPX</a> . 50 km, 150 D+, 140 D-</div>
 
-![](./images/08-map.png)
+![](./images/rochefort-larochelle.png)
 
-- [🏨](https://maps.app.goo.gl/Kj2U1X4C7vJxfkea8) 54, rue de la Noue, 17390 La Tremblade
-
-<div style="display: flex; justify-content: center; align-items: center;">
-<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/174520##3D6AA2" title="La Tremblade"> </iframe>
-</div>
-
-## 9. vendredi 22 août : ⟶ Royan
-
-- [🚲 GPX](./files/09-la-tremblade-royan.gpx)
-
-![](./images/09-elevation.png)
-
-![](./images/09-map.png)
-
-- [🏨](https://maps.app.goo.gl/sLRhc9wo9v4vpRc76) 78 boulevard Franck Lamy, 17200 Royan
-
-<div style="display: flex; justify-content: center; align-items: center;">
-<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/173060##3D6AA2" title="Royan"> </iframe>
-</div>
-
-## 10. samedi 23 août : ⟶ Soulac ⟶ Royan
-
-<div style="display: flex; justify-content: center; align-items: center;">
-<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/335140##3D6AA2" title="Soulac"> </iframe>
-</div>
-
-## 11. dimanche 24 août : ⟶ La Rochelle
-
-- 🚆  Royan 09:28 - 09:53 Saintes 10:06 - 11:11 La Rochelle
-- [🏨](https://maps.app.goo.gl/p4o4YgM4hH6MZne67) AJ, Avenue des Minimes, 17000 La Rochelle, 05.46.44.43.11
+<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/Kj2U1X4C7vJxfkea8">La Rochelle</a></div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/173000##3D6AA2" title="La Rochelle"> </iframe>
 </div>
 
-## 12. lundi 25 août : ⟶ Paris
+## 9. lundi 4 mai : La Rochelle ⟶ Paris
 
-- 🚆 La Rochelle 08:48 - 12:33 Paris
+<div class="trip-note trip-train">🚆 La Rochelle 08:48 - 12:33 Paris</div>
+
+
+
+<div style="display: flex; justify-content: center; align-items: center;">
+<iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/751010##3D6AA2" title="La Rochelle"> </iframe>
+</div>
+

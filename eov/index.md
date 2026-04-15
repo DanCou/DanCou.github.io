@@ -1,9 +1,9 @@
 ---
 title: Eure et Oise à vélo
 date: 17-21 juin 2026
+show_title: true
 ---
 
-# Eure et Oise à vélo (17-20 juin 2026)
 
 ## mercredi 17 juin, vers la Roche Guyon
 

@@ -248,6 +248,45 @@ div[style*="display: flex"] {
   color: #0f223f;
 }
 
+/* Trip highlights (train / stay / bike) */
+.container .trip-note {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  margin: 0.9rem 0;
+  box-shadow: 0 6px 16px var(--shadow);
+  font-weight: 600;
+}
+
+.container .trip-note a {
+  font-weight: 700;
+}
+
+.container .trip-train {
+  background: linear-gradient(135deg, #e8f3ff 0%, #f7fbff 100%);
+  border-left: 6px solid #2f6dd6;
+}
+
+.container .trip-stay {
+  background: linear-gradient(135deg, #fff5e7 0%, #fffdf8 100%);
+  border-left: 6px solid #d58f1f;
+}
+
+.container .trip-bike {
+  background: linear-gradient(135deg, #e8f8ef 0%, #f8fffb 100%);
+  border-left: 6px solid #2f9e5d;
+}
+
+.container .trip-bus {
+  background: linear-gradient(135deg, #fff1fb 0%, #fffbfe 100%);
+  border-left: 6px solid #c04db3;
+}
+
+.container .trip-hike {
+  background: linear-gradient(135deg, #eef8e8 0%, #fbfff8 100%);
+  border-left: 6px solid #6ea337;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   body {
