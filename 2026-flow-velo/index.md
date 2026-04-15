@@ -95,7 +95,7 @@ show_title: true
 
 ![](./images/rochefort-larochelle.png)
 
-<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/Kj2U1X4C7vJxfkea8">La Rochelle</a></div>
+<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/spA9M14AsB3aDwQR7">Hotel B&B, 140 Bd Joffre, 17000 La Rochelle</a></div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/173000##3D6AA2" title="La Rochelle"> </iframe>
