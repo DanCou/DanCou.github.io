@@ -8,6 +8,7 @@ eov/*.html
 bretagne/2024/index.html
 bretagne/2025/index.html
 paris/index.html
+/index.html
 
 # Jekyll build artifacts
 _site/
