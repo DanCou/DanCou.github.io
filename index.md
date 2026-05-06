@@ -12,7 +12,7 @@ permalink: /
 - [Flow Vélo 2026](./2026-flow-velo/)
 - [Munich - Venise 2025](./2025-munich-venise/)
 - [Bretagne](./bretagne/)
-- [Eure et Oise à vélo](./eov/)
+- [Eure et Oise à vélo](./2026-eure-et-oise-a-velo/)
 
 ## Archives
 
