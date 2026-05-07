@@ -44,7 +44,12 @@ show_title: true
 ![](./images/larocheguyon-lesandelys-d.png)
 
 
-<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/8VnMDgUiGyf8azD79">Hotel Les Iris, 8-10 rue Georges Clémenceau, 27700 Les Andelys</a>· <a href="https://www.booking.com/hotel/fr/les-iris-les-andelys.html">Booking</a></div>
+<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/8VnMDgUiGyf8azD79">Hotel Les Iris, 8-10 rue Georges Clémenceau, 27700 Les Andelys</a>· <a href="https://www.booking.com/hotel/fr/les-iris-les-andelys.html">Booking</a>
+<ul>
+<li>Chambre 1 : 2 lits jumeaux</li>
+<li>Chambre 2 : 2 lits jumeaux</li>
+</ul>
+</div>
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
@@ -76,7 +81,12 @@ show_title: true
 ![](./images/lyonslaforet-gournayenbray.png)
 ![](./images/lyonslaforet-gournayenbray-d.png)
 
-<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/EmV4ZVb5BUa5gztA7">Hotel de Normandie, 21 place nationale, 76220 Gournay-en-Bray</a> . <a href="https://www.booking.com/hotel/fr/de-normandie-gournay-en-bray.html">Booking</a></div>
+<div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/EmV4ZVb5BUa5gztA7">Hotel de Normandie, 21 place nationale, 76220 Gournay-en-Bray</a> . <a href="https://www.booking.com/hotel/fr/de-normandie-gournay-en-bray.html">Booking</a>
+<ul>
+<li>Chambre 1 : chambre double</li>
+<li>Chambre 2 : chambre triple</li>
+</ul>
+</div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/763120##3D6AA2" title="Gournay en Bray"> </iframe>
