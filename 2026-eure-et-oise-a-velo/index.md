@@ -5,6 +5,10 @@ date: 17 - 21 juin 2026
 show_title: true
 ---
 
+<p align="center">
+  <img src="./images/eric.jpg" alt="Eric">
+</p>
+
 ## Eure et Oise à vélo : 239 km +1750 m / -1750 m
 
 [![](./images/parcours.png)](https://umap.openstreetmap.fr/en/map/flow-velo_1264424#10/45.7124/-0.0536)
