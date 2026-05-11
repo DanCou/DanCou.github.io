@@ -13,6 +13,7 @@ permalink: /
 - [Munich - Venise 2025](./2025-munich-venise/)
 - [Bretagne](./bretagne/)
 - [Eure et Oise à vélo](./2026-eure-et-oise-a-velo/)
+- [Dingle Way](./2026-dingle-way/)
 
 ## Archives
 
