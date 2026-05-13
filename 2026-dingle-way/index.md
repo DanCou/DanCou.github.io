@@ -18,7 +18,7 @@ show_title: true
 <div class="trip-note trip-train">🚆 Cork 16:57 - 18:58 Tralee</div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
-<img src="./images/cork-tralee.png" alt="Parcours">
+<img src="./images/cork-tralee.png" alt="Cork-Tralee">
 </div>
 
 {% include weather-widget.html
@@ -26,19 +26,6 @@ show_title: true
    cityid="2965140"
    appid="e799e26275aa824e9c4a5e897c2dfd8c"
 %}
-
-
-
-
-<div class="trip-note trip-bike">🚲 <a href="./files/gisors-larocheguyon.gpx">Gisors - La Roche Guyon GPX</a> . 42 km, 265 D+, 300 D-</div>
-
-<div style="display: flex; justify-content: center; align-items: center;">
-<img src="./images/gisors-larocheguyon.png" alt="Parcours">
-</div>
-
-<div style="display: flex; justify-content: center; align-items: center;">
-<img src="./images/gisors-larocheguyon-d.png" alt="Parcours">
-</div>
 
 
 <div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/LcPY8piburQajFs16">Tralee Townhouse,
