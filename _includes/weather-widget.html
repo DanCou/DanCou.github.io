@@ -1,7 +1,6 @@
-<!-- OpenWeather Widget - Large with 8-Day Forecast -->
-<link rel="stylesheet" href="//openweathermap.org/themes/openweathermap/assets/vendor/owm/css/style.min.css">
+<!-- OpenWeather Widget -->
 <script src="//unpkg.com/d3@7.8.5/dist/d3.min.js"></script>
-<div id="openweathermap-widget-{{ include.id }}"></div>
+<div id="openweathermap-widget-{{ include.id }}" style="min-height:{{ include.min_height | default: '460px' }}; width:{{ include.width | default: '100%' }};"></div>
 <script type="text/javascript">
   window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
   window.myWidgetParam.push({
@@ -12,4 +11,15 @@
     containerid: 'openweathermap-widget-{{ include.id }}',
   });
 </script>
-<script async charset="utf-8" src="//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator-2.0.js"></script>
+<script>
+  if (!window._owmScriptLoaded) {
+    window._owmScriptLoaded = true;
+    window.addEventListener('DOMContentLoaded', function() {
+      var _owmScript = document.createElement('script');
+      _owmScript.async = true;
+      _owmScript.charset = 'utf-8';
+      _owmScript.src = '//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator-2.0.js';
+      document.body.appendChild(_owmScript);
+    });
+  }
+</script>

@@ -1,0 +1,93 @@
+<!-- Hourly Forecast Widget (3h intervals, 5 days) -->
+<div id="hourly-weather-{{ include.id }}" class="hourly-weather-widget">
+  <div class="hourly-weather-loading">Chargement météo...</div>
+</div>
+
+<script>
+(function() {
+  var cityid = '{{ include.cityid }}';
+  var appid = '{{ include.appid }}';
+  var units = '{{ include.units | default: "metric" }}';
+  var containerId = 'hourly-weather-{{ include.id }}';
+  var maxSlots = parseInt('{{ include.slots | default: "8" }}'); // number of 3h slots to show
+
+  var unitSymbol = units === 'imperial' ? '°F' : '°C';
+  var windUnit = units === 'imperial' ? 'mph' : 'm/s';
+
+  function pad(n) { return n < 10 ? '0' + n : n; }
+
+  function formatTime(dt) {
+    var d = new Date(dt * 1000);
+    return pad(d.getHours()) + ':' + pad(d.getMinutes());
+  }
+
+  function formatDate(dt) {
+    var d = new Date(dt * 1000);
+    var days = ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'];
+    return days[d.getDay()] + ' ' + pad(d.getDate()) + '/' + pad(d.getMonth() + 1);
+  }
+
+  function iconUrl(icon) {
+    return 'https://openweathermap.org/img/wn/' + icon + '.png';
+  }
+
+  function render(data) {
+    var slots = data.list.slice(0, maxSlots);
+    var container = document.getElementById(containerId);
+    if (!container) return;
+
+    var html = '<div class="hourly-weather-inner">';
+    html += '<div class="hourly-weather-city">' + data.city.name + ', ' + data.city.country + '</div>';
+    html += '<div class="hourly-weather-slots">';
+
+    slots.forEach(function(slot) {
+      var temp = Math.round(slot.main.temp);
+      var feels = Math.round(slot.main.feels_like);
+      var desc = slot.weather[0].description;
+      var icon = slot.weather[0].icon;
+      var wind = slot.wind.speed.toFixed(1);
+      var pop = slot.pop !== undefined ? Math.round(slot.pop * 100) : null;
+      var rain = slot.rain && slot.rain['3h'] ? slot.rain['3h'].toFixed(1) : null;
+
+      html += '<div class="hourly-slot">';
+      html += '<div class="hourly-date">' + formatDate(slot.dt) + '</div>';
+      html += '<div class="hourly-time">' + formatTime(slot.dt) + '</div>';
+      html += '<img src="' + iconUrl(icon) + '" alt="' + desc + '" title="' + desc + '">';
+      html += '<div class="hourly-temp">' + temp + unitSymbol + '</div>';
+      html += '<div class="hourly-feels">Ressenti ' + feels + unitSymbol + '</div>';
+      html += '<div class="hourly-wind">💨 ' + wind + ' ' + windUnit + '</div>';
+      if (pop !== null) html += '<div class="hourly-pop">🌧 ' + pop + '%</div>';
+      if (rain) html += '<div class="hourly-rain">💧 ' + rain + ' mm</div>';
+      html += '</div>';
+    });
+
+    html += '</div></div>';
+    container.innerHTML = html;
+  }
+
+  function load() {
+    var url = 'https://api.openweathermap.org/data/2.5/forecast?id=' + cityid +
+              '&units=' + units + '&appid=' + appid;
+    fetch(url)
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (data.cod !== '200') {
+          document.getElementById(containerId).innerHTML =
+            '<div class="hourly-weather-error">Erreur météo: ' + (data.message || data.cod) + '</div>';
+          return;
+        }
+        render(data);
+      })
+      .catch(function() {
+        document.getElementById(containerId).innerHTML =
+          '<div class="hourly-weather-error">Impossible de charger la météo.</div>';
+      });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', load);
+  } else {
+    load();
+  }
+})();
+</script>

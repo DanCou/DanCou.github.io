@@ -5,6 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="//openweathermap.org/themes/openweathermap/assets/vendor/owm/css/style.min.css">
+  <style>
+    [id^="openweathermap-widget-"] > div,
+    [id^="openweathermap-widget-"] .widget-left {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    .hourly-weather-widget {
+      margin: 1rem 0;
+      font-size: 0.85rem;
+    }
+    .hourly-weather-city {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .hourly-weather-loading,
+    .hourly-weather-error {
+      padding: 0.5rem;
+      color: var(--text-muted, #888);
+    }
+    .hourly-weather-slots {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .hourly-slot {
+      background: var(--card-bg, #f5f5f5);
+      border-radius: 8px;
+      padding: 0.5rem 0.75rem;
+      text-align: center;
+      min-width: 90px;
+      flex: 1 1 90px;
+    }
+    .hourly-date {
+      font-size: 0.75rem;
+      color: var(--text-muted, #888);
+    }
+    .hourly-time {
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+    .hourly-slot img {
+      width: 40px;
+      height: 40px;
+    }
+    .hourly-temp {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+    .hourly-feels,
+    .hourly-wind,
+    .hourly-pop,
+    .hourly-rain {
+      font-size: 0.75rem;
+      color: var(--text-muted, #555);
+    }
+  </style>
 </head>
 <body>
   <div class="container">
