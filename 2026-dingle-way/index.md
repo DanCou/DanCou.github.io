@@ -5,7 +5,7 @@ date: 13 - 19 juillet 2026
 show_title: true
 ---
 
-## The Dingle Way : 115 km +2440 m / -2410 m
+## The Dingle Way : 115 km +2440 m / -2410 m (131 ke)
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
@@ -47,7 +47,7 @@ show_title: true
    appid="e799e26275aa824e9c4a5e897c2dfd8c"
 %}
 
-<div class="trip-note trip-hike"> 🥾 <a href="./files/tralee-camp.gpx">Tralee - Camp GPX</a> . 20 km, 350 D+, 280 D-</div>
+<div class="trip-note trip-hike"> 🥾 <a href="./files/tralee-camp.gpx">Tralee - Camp GPX</a> . 20 km, 350 D+, 280 D- (22 ke)</div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <img src="./images/tralee-camp.png" alt="Parcours">
@@ -68,7 +68,7 @@ show_title: true
 
 ## 3 - mercredi 15 juillet - Camp ⟶ Annascaul
 
-<div class="trip-note trip-hike">🥾 <a href="./files/camp-annascaul.gpx">Camp - Annascaul GPX</a> . 17 km, 310 D+, 350 D-</div>
+<div class="trip-note trip-hike">🥾 <a href="./files/camp-annascaul.gpx">Camp - Annascaul GPX</a> . 17 km, 310 D+, 350 D- (19 ke)</div>
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
@@ -105,7 +105,7 @@ show_title: true
    appid="e799e26275aa824e9c4a5e897c2dfd8c"
 %}
 
-<div class="trip-note trip-hike">🥾 <a href="./files/annascaul-dingle.gpx">Annascaul - Dingle GPX</a> . 22.5 km, 360 D+, 380 D-</div>
+<div class="trip-note trip-hike">🥾 <a href="./files/annascaul-dingle.gpx">Annascaul - Dingle GPX</a> . 22.5 km, 360 D+, 380 D- (25 ke)</div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <img src="./images/annascaul-dingle.png" alt="Parcours">
@@ -141,7 +141,7 @@ show_title: true
 <img src="./images/dingle-ventry-bus.png" alt="Parcours">
 </div>
 
-<div class="trip-note trip-hike">🥾 <a href="./files/ventry-dingle.gpx">Ventry - Dingle GPX</a> . 12 km, 140 D+, 140 D-</div>
+<div class="trip-note trip-hike">🥾 <a href="./files/ventry-dingle.gpx">Ventry - Dingle GPX</a> . 12 km, 140 D+, 140 D- (13 ke)</div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <img src="./images/ventry-dingle.png" alt="Parcours">
@@ -160,7 +160,7 @@ show_title: true
 <img src="./images/dingle-feothanach-bus.png" alt="Parcours">
 </div>
 
-<div class="trip-note trip-bike">🥾 <a href="./files/feothanach-cloghan.gpx">Feothanach - Cloghan GPX</a> . 26 km, 800 D+, 800 D-</div>
+<div class="trip-note trip-bike">🥾 <a href="./files/feothanach-cloghan.gpx">Feothanach - Cloghan GPX</a> . 26 km, 800 D+, 800 D- (31 ke)</div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <img src="./images/feothanach-cloghan.png" alt="Parcours">
@@ -181,7 +181,7 @@ show_title: true
 
 ## 6 - dimanche 19 juillet - Cloghan ⟶ Annascaul
 
-<div class="trip-note trip-bike">🥾 <a href="./files/cloghan-annascaul.gpx">Cloghan - Annascaul GPX</a> . 18 km, 480 D+, 460 D-</div>
+<div class="trip-note trip-bike">🥾 <a href="./files/cloghan-annascaul.gpx">Cloghan - Annascaul GPX</a> . 18 km, 480 D+, 460 D- (21 ke)</div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <img src="./images/cloghan-annascaul.png" alt="Parcours">
