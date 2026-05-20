@@ -93,6 +93,15 @@ img {
   display: block;
 }
 
+.leaflet-container img {
+  max-width: none;
+  height: auto;
+  border-radius: 0;
+  margin: 0;
+  box-shadow: none;
+  display: block;
+}
+
 ul, ol {
   margin: 1.5rem 0;
   padding-left: 2rem;

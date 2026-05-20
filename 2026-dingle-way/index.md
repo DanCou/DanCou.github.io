@@ -8,9 +8,102 @@ show_title: true
 ## The Dingle Way : 115 km +2440 m / -2410 m (131 ke)
 
 
-<div style="display: flex; justify-content: center; align-items: center;">
-<a href="https://umap.openstreetmap.fr/en/map/our-dingle-way_1406381"><img src="./images/parcours.png" alt="Parcours"></a>
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<div style="position:relative;height:460px;border-radius:8px;overflow:hidden;margin:1em 0;">
+  <div style="position:absolute;top:0;left:0;right:0;height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;background:#fff;z-index:1000;box-sizing:border-box;">
+    <span id="rv-ts" style="font:600 16px sans-serif;color:#333">Loading…</span>
+    <div style="display:flex;gap:6px;">
+      <button onclick="rvStop();rvShow(rvPos-1)" style="width:32px;height:32px;border:1px solid #ddd;border-radius:4px;background:#fff;cursor:pointer;font-size:15px;">‹</button>
+      <button id="rv-play" onclick="rvPlayStop()" style="width:32px;height:32px;border:1px solid #ddd;border-radius:4px;background:#fff;cursor:pointer;font-size:15px;">▶</button>
+      <button onclick="rvStop();rvShow(rvPos+1)" style="width:32px;height:32px;border:1px solid #ddd;border-radius:4px;background:#fff;cursor:pointer;font-size:15px;">›</button>
+    </div>
+  </div>
+  <div id="rv-map" style="position:absolute;top:44px;left:0;bottom:0;right:0;"></div>
 </div>
+
+<script>
+var rvMap = L.map('rv-map', { maxZoom: 12 }).setView([52.207965722919376, -10.014874863280404], 10);
+L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors &copy; <a href="https://opentopomap.org">OpenTopoMap</a>',
+  subdomains: 'abc', maxZoom: 17
+}).addTo(rvMap);
+
+
+
+var rvData = {}, rvFrames = [], rvPos = 0, rvTimer = false, rvLayer = null, rvLoading = false, rvCache = {};
+var RV_OPACITY = 0.8, RV_DELAY = 500, RV_TSIZE = window.devicePixelRatio >= 2 ? 512 : 256;
+
+function rvWrap(p) { while (p >= rvFrames.length) p -= rvFrames.length; while (p < 0) p += rvFrames.length; return p; }
+function rvFmt(ts) { return new Date(ts * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }); }
+function rvNewLayer(f) { return new L.TileLayer(rvData.host + f.path + '/' + RV_TSIZE + '/{z}/{x}/{y}/2/1_1.png', { tileSize: 256, opacity: 0.001, maxNativeZoom: 7, maxZoom: 12 }); }
+
+function rvClearCache() {
+  rvStop();
+  for (var p in rvCache) { if (parseInt(p) !== rvPos) { rvMap.removeLayer(rvCache[p]); delete rvCache[p]; } }
+}
+
+function rvStop() {
+  if (rvTimer) { clearTimeout(rvTimer); rvTimer = false; document.getElementById('rv-play').innerHTML = '▶'; return true; }
+  return false;
+}
+
+function rvPlay() { rvTimer = true; document.getElementById('rv-play').innerHTML = '⏸'; rvShow(rvPos + 1); }
+function rvPlayStop() { if (!rvStop()) rvPlay(); }
+
+function rvShow(pos) {
+  if (rvLoading) return;
+  pos = rvWrap(pos);
+  var f = rvFrames[pos];
+  document.getElementById('rv-ts').innerHTML = rvFmt(f.time);
+  var old = rvLayer;
+  if (rvCache[pos]) {
+    if (old) old.setOpacity(0);
+    rvCache[pos].setOpacity(RV_OPACITY); rvLayer = rvCache[pos]; rvPos = pos;
+    if (rvTimer) rvTimer = setTimeout(rvPlay, RV_DELAY);
+    return;
+  }
+  rvLoading = true;
+  var layer = rvNewLayer(f);
+  layer.on('load', function () {
+    layer.setOpacity(RV_OPACITY);
+    if (old) old.setOpacity(0);
+    rvCache[pos] = layer; rvLayer = layer; rvPos = pos; rvLoading = false;
+    if (rvTimer) rvTimer = setTimeout(rvPlay, RV_DELAY);
+  });
+  layer.addTo(rvMap);
+}
+
+function rvInit(api) {
+  rvClearCache(); rvLayer = null; rvFrames = []; rvPos = 0;
+  if (!api || !api.radar || !api.radar.past) return;
+  rvFrames = api.radar.past;
+  rvShow(rvFrames.length - 1);
+}
+
+rvMap.on('movestart', rvClearCache);
+var rvReq = new XMLHttpRequest();
+rvReq.open('GET', 'https://api.rainviewer.com/public/weather-maps.json', true);
+rvReq.onload = function () { rvData = JSON.parse(rvReq.response); rvInit(rvData); };
+rvReq.send();
+
+['tralee-camp.gpx', 'camp-annascaul.gpx', 'annascaul-dingle.gpx',
+ 'feothanach-cloghan.gpx', 'cloghan-annascaul.gpx', 'ventry%20-%20dingle.gpx']
+  .forEach(function(name) {
+    fetch('./files/' + name)
+      .then(function(r) { return r.text(); })
+      .then(function(text) {
+        var pts = Array.from(new DOMParser().parseFromString(text, 'text/xml')
+          .getElementsByTagName('trkpt'))
+          .map(function(p) { return [+p.getAttribute('lat'), +p.getAttribute('lon')]; })
+          .filter(function(p) { return !isNaN(p[0]) && !isNaN(p[1]); });
+        L.polyline(pts, { color: '#e63946', weight: 3, opacity: 0.9 }).addTo(rvMap);
+      });
+  });
+</script>
 
 
 ## 1 - Lundi 13 juillet : Cork ⟶ Tralee
@@ -21,12 +114,13 @@ show_title: true
 <img src="./images/cork-tralee-train.png" alt="Cork-Tralee">
 </div>
 
+{% comment %}
 {% include hourly-weather.html
    id="1-cork"
    cityid="2965140"
    appid="e799e26275aa824e9c4a5e897c2dfd8c"
 %}
-
+{% endcomment %}
 
 <div class="trip-note trip-stay">🏨 <a href="https://maps.app.goo.gl/LcPY8piburQajFs16">Tralee Townhouse,
 1 High Street, Tralee</a> · <a href="https://www.booking.com/hotel/ie/tralee-townhouse.fr.html">Booking</a>
@@ -41,11 +135,13 @@ show_title: true
 
 ## 2 - mardi 14 juillet - Tralee ⟶ Camp
 
+{% comment %}
 {% include hourly-weather.html
    id="2-tralee"
    cityid="2961123"
    appid="e799e26275aa824e9c4a5e897c2dfd8c"
 %}
+{% endcomment %}
 
 <div class="trip-note trip-hike"> 🥾 <a href="./files/tralee-camp.gpx">Tralee - Camp GPX</a> . 20 km, 350 D+, 280 D- (22 ke)</div>
 
@@ -99,11 +195,13 @@ show_title: true
 
 ## 4 - jeudi 16 juillet - Annascaul ⟶ Dingle
 
+{% comment %}
 {% include hourly-weather.html
    id="3-dingle"
    cityid="2964782"
    appid="e799e26275aa824e9c4a5e897c2dfd8c"
 %}
+{% endcomment %}
 
 <div class="trip-note trip-hike">🥾 <a href="./files/annascaul-dingle.gpx">Annascaul - Dingle GPX</a> . 22.5 km, 360 D+, 380 D- (25 ke)</div>
 
