@@ -8,8 +8,6 @@ show_title: true
 ## The Dingle Way : 115 km +2440 m / -2410 m (131 ke)
 
 
-
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
@@ -250,7 +248,7 @@ rvReq.send();
 </div>
 
 
-## 5 - samedi 18 juillet - Dingle ⟶ Feothanach ⟶ Cloghan
+## 6 - samedi 18 juillet - Dingle ⟶ Feothanach ⟶ Cloghan
 
 <div class="trip-note trip-train">🚌 Dingle 09:15 - 09:40 Feothanach</div>
 
@@ -277,7 +275,7 @@ rvReq.send();
 </div>
 
 
-## 6 - dimanche 19 juillet - Cloghan ⟶ Annascaul
+## 7 - dimanche 19 juillet - Cloghan ⟶ Annascaul
 
 <div class="trip-note trip-bike">🥾 <a href="./files/cloghan-annascaul.gpx">Cloghan - Annascaul GPX</a> . 18 km, 480 D+, 460 D- (21 ke)</div>
 
